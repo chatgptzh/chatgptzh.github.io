@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>访问ChatGPT报错Access deinied访问被拒绝应该怎么办？</title>
+    <url>/access-denied/</url>
+    <content><![CDATA[<p>一些朋友在访问ChatGPT官网时会遇到Access deinied（访问被拒绝）的问题，那么出现这个问题的原因是什么呢？解决方法又是什么呢？今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下解决ChatGPT Access deinied访问被拒绝的方法。</p>
+<h2 id="拒绝原因"><a href="#拒绝原因" class="headerlink" title="拒绝原因"></a>拒绝原因</h2><p>Access denied. You do not have access to chat.openai.com （访问被拒绝。您无权访问chat.openai.com）是因为ChatGPT屏蔽了你当前使用的IP地址，拒绝了从这个IP访问ChatGPT的所有请求，屏蔽的原因可能有2个：</p>
+<ol>
+<li>当前所在地区&#x2F;国家没有开放ChatGPT访问权限：例如中国大陆和中国香港现阶段都是无法使用ChatGPT的；</li>
+<li>当前使用的代理IP被ChatGPT封了：ChatGPT会封禁一些万人骑的IP，尤其是IDC厂商的IP段，封了后也可能报这个错误。</li>
+</ol>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-access-denied.png" alt="ChatGPT Access denied" title="ChatGPT Access denied"></p>
+<p>现在IP被封了还有另外一种错误提示，可以参考：《<a href="https://chatgptzh.github.io/sorry-you-have-been-blocked/" title="访问ChatGPT报错Sorry, you have been blocked（抱歉，您已被屏蔽）应该怎么办？">访问ChatGPT报错Sorry, you have been blocked（抱歉，您已被屏蔽）应该怎么办？</a>》</p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>ChatGPT Access denied的解决方法就是换可以访问ChatGPT的IP地址，如果你使用的代理有多个节点，那就更换节点后再尝试访问chat.openai.com，如果所有的节点都是提示访问被拒绝，那么就更换一个代理。例如搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！">在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！</a>》。</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT打不开访问不了</tag>
+        <tag>ChatGPT Access denied</tag>
+        <tag>ChatGPT访问被拒绝</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ChatGPT交流群整理：微信公众号、QQ群、Telegram电报群、知识星球</title>
+    <url>/groups/</url>
+    <content><![CDATA[<p>今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>帮大家整理下ChatGPT交流群，大家可以加入相应的社区团体跟ChatGPT用户一起交流ChatGPT使用心得。</p>
+<h2 id="ChatGPT微信公众号"><a href="#ChatGPT微信公众号" class="headerlink" title="ChatGPT微信公众号"></a>ChatGPT微信公众号</h2><p>一个不止于ChatGPT的AI公众号，分享并关注AI技术在工作和日常生活中的应用，分享AI最新行业风向和商业价值解析。</p>
+<p><img src="https://laowangblog.com/wx-qrcode.png" alt="ChatGPT微信公众号" title="ChatGPT微信公众号"></p>
+<h2 id="ChatGPT-QQ群"><a href="#ChatGPT-QQ群" class="headerlink" title="ChatGPT QQ群"></a>ChatGPT QQ群</h2><p>2000人QQ群，跟大佬一起交流：699421447</p>
+<h2 id="ChatGPT-Telegram电报群"><a href="#ChatGPT-Telegram电报群" class="headerlink" title="ChatGPT Telegram电报群"></a>ChatGPT Telegram电报群</h2><p>Telegram电报交流群，随心所欲，畅所欲言：<a href="https://t.me/ChatGPTOpenAICN">@ChatGPTOpenAICN</a>。</p>
+<h2 id="ChatGPT知识星球"><a href="#ChatGPT知识星球" class="headerlink" title="ChatGPT知识星球"></a>ChatGPT知识星球</h2><p>待上线。。。</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT打不开访问不了</tag>
+        <tag>ChatGPT Sorry you have been blocked</tag>
+        <tag>ChatGPT抱歉您已被屏蔽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023年最新ChatGPT注册教程（国内可用，含接码手机号推荐）</title>
+    <url>/how-to-register-a-chatgpt-account-in-china/</url>
+    <content><![CDATA[<p>ChatGPT虽然没有开放中国区，但是在国内通过一些手段也是可以成功注册ChatGPT账号的。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下详细的2023年最新ChatGPT注册教程，国内也可以用，包括接码平台推荐，可用于ChatGPT手机号验证。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>在注册ChatGPT账号前，我们需要准备以下几个材料：</p>
+<ol>
+<li><strong>邮箱</strong>：目前ChatGPT对于邮箱要求还是比较高的，国内邮箱（QQ、163等）基本都用不了了，可以用Gmail、Proton等国外邮箱注册，如果没有的话就去注册一个；</li>
+<li><strong>魔法工具</strong>：由于ChatGPT没有开放国区，所以需要一个可以魔法上网的工具，保证自己可以访问ChatGPT官网。注意现在一些魔法工具的IP被ChatGPT封了（尤其是免费的工具），我们也可以使用保证可以访问ChatGPT的工具，例如<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>：<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！">在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！</a>；</li>
+<li><strong>国外手机号</strong>：在正常使用ChatGPT前我们必须要验证ChatGPT手机号，同样的国内的手机号无法验证，所以我们还需要准备一个国外手机号，这个可以用接码平台来实现，需要充值2美元（可使用多次）。</li>
+</ol>
+<h2 id="账号注册"><a href="#账号注册" class="headerlink" title="账号注册"></a>账号注册</h2><p>进入ChatGPT首页：<a href="https://chat.openai.com/" title="https://chat.openai.com">https://chat.openai.com</a>，点击Sign UP开始注册：</p>
+<p><img src="https://chatgptzh.github.io/images/chat-openai-com.png" alt="ChatGPT注册" title="ChatGPT注册"></p>
+<p>我们可以用Google或者微软帐号直接注册，也可以用邮箱注册，这里推荐大家用邮箱注册，输入邮箱，再设置一个ChatGPT的密码进行注册，点击Continue继续下一步：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-Create-your-account.png" alt="ChatGPT注册账号" title="ChatGPT注册账号"></p>
+<p>之后ChatGPT会给你的注册邮箱发送一封验证邮件，回到邮箱查看验证邮件：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-verify.png" alt="ChatGPT验证邮件" title="ChatGPT验证邮件"></p>
+<p>点击上图中的激活按钮会跳转到输入个人信息页面，包括用户名及出生日期（注意生日一定要成年）：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-Tell-us-about-you.png" alt="ChatGPT个人信息" title="ChatGPT个人信息"></p>
+<p>接下来就是通过手机验证，这里要用到国外手机号。如果没有，可以去接码平台购买一个，免费的接码平台基本不可能注册ChatGPT了，所以还是推荐大家使用付费接码平台。</p>
+<h2 id="接码平台注册"><a href="#接码平台注册" class="headerlink" title="接码平台注册"></a>接码平台注册</h2><p>接码平台：<a href="https://sms-activate.org/?ref=6923101" title="SMS-Activate.org">SMS-Activate.org</a></p>
+<p>打开链接，注册一个账号，这里随便用什么邮箱都行：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-SMS-activate-register.png" alt="sms接码平台注册" title="sms接码平台注册"></p>
+<p>然后，要充值余额。点击右上角头像余额下面的箭头，选择“充值”：</p>
+<p><img src="https://chatgptzh.github.io/images/sms-pop-up.png" alt="SMS接码平台充值" title="SMS接码平台充值"></p>
+<p>一次接收OpenAi的验证码费用大概是15<del>25卢布，人民币差不多是1</del>2元钱，不过只能充美金，最少充值2美元，可以帮朋友也接码验证，或者用于其他平台的手机号验证。可以选择方便的支付方式，支持支付宝充值：</p>
+<p><img src="https://chatgptzh.github.io/images/sms-alipay.png" alt="SMS接码平台充值" title="SMS接码平台充值"></p>
+<p>之后，在页面左侧搜索框内搜索openai，再选择印尼手机号（因为印尼号比较便宜），点击后面的购物车购买。手机号有效期20分钟，所以需要验证手机时再买：</p>
+<p><img src="https://chatgptzh.github.io/images/sms-openai.png" alt="SMS接码平台OpenAI" title="SMS接码平台OpenAI"></p>
+<p>验证码会在下图红色框的位置显示。如果遇到收不到验证码的情况，可以点击右侧红叉删除这个号码，没有收到验证码的号码是不收费的：</p>
+<p><img src="https://chatgptzh.github.io/images/sms-code.png" alt="SMS验证码" title="SMS验证码"></p>
+<h2 id="手机号验证"><a href="#手机号验证" class="headerlink" title="手机号验证"></a>手机号验证</h2><p>回到ChatGPT手机号验证页面，填入刚才的手机号，进行验证：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-verify-your-phone-number.png" alt="ChatGPT手机号验证" title="ChatGPT手机号验证"></p>
+<p>在接码平台收到验证码后，填入6位数的验证码：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-enter-code.png" alt="ChatGPT手机号验证" title="ChatGPT手机号验证"></p>
+<h2 id="完成注册"><a href="#完成注册" class="headerlink" title="完成注册"></a>完成注册</h2><p>再回到ChatGPT首页：<a href="https://chat.openai.com/" title="https://chat.openai.com">https://chat.openai.com</a>，你就可以正常跟ChatGPT交流了：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-start.png" alt="ChatGPT完成注册" title="ChatGPT完成注册"></p>
+<p>至此，你完成了全部的ChatGPT账号注册流程！</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT注册教程</tag>
+        <tag>ChatGPT账号</tag>
+        <tag>ChatGPT国内注册</tag>
+        <tag>ChatGPT接码</tag>
+        <tag>ChatGPT手机号验证</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>名词解释：GPT、GPT-3.5、GPT-4、ChatGPT、ChatGPT Plus、OpenAI、API</title>
+    <url>/keywords/</url>
+    <content><![CDATA[<p>人工智能大火，我们在哪里都会看到ChatGPT相关的新闻或者视频，这些报道中总会有一些专业名词，听的人雨里雾里的，今天ChatGPT中文网就先给大家科普下这些专业名词的解释。</p>
+<h2 id="OpenAI"><a href="#OpenAI" class="headerlink" title="OpenAI"></a>OpenAI</h2><p>OpenAI是美国的一个人工智能研究实验室，由非营利组织OpenAI Inc和其营利组织子公司OpenAI LP所组成。OpenAI进行AI研究的目的是促进和发展友好的人工智能，使人类整体受益。</p>
+<h2 id="GPT"><a href="#GPT" class="headerlink" title="GPT"></a>GPT</h2><p>Generative Pre-trained Transformer（GPT）是由OpenAI推出的一个预训练语言模型，能出色的处理非常复杂的NLP任务，如文章生成，代码生成，机器翻译，Q&amp;A等。</p>
+<h2 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h2><p>ChatGPT是一个人工智能聊天机器人程序，于2022年11月推出，目前是一个网站，用户在电脑或者手机上打开网页就可以直接对话，完全免费，注册即可使用。</p>
+<p>ChatGPT可以做的事很多，包括但不限于生成文章、协助写代码、翻译、问答等。</p>
+<h2 id="GPT-3-5"><a href="#GPT-3-5" class="headerlink" title="GPT-3.5"></a>GPT-3.5</h2><p>GPT-3.5是GPT的一个架构版本，目前ChatGPT默认就是使用GPT-3.5架构。</p>
+<h2 id="GPT-4"><a href="#GPT-4" class="headerlink" title="GPT-4"></a>GPT-4</h2><p>GPT-4 是2023年3月最新发布的全新版本的GPT架构，并且是一个多模态大模型，支持接受图像和文本输入，输出文本。</p>
+<h2 id="ChatGPT-Plus"><a href="#ChatGPT-Plus" class="headerlink" title="ChatGPT Plus"></a>ChatGPT Plus</h2><p>ChatGPT Plus是ChatGPT的会员版本，在注册ChatGPT账号后，用户可以花费20美元&#x2F;月的价格升级为ChatGPT Plus。ChatGPT Plus可以使用GPT-4。</p>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><p>这里的API主要是指ChatGPT API，也就是ChatGPT人工智能模型的接口。我们在使用一些工具时都会看到“ChatGPT API secret key”的填入要求，这里说的就是ChatGPT API。</p>
+<p>ChatGPT API是收费的， 目前的定价为是$0.002&#x2F;1K tokens，大约750个词。</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>GPT</tag>
+        <tag>GPT-3.5</tag>
+        <tag>GPT-4</tag>
+        <tag>ChatGPT Plus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ChatGPT常用链接整理</title>
+    <url>/links/</url>
+    <content><![CDATA[<p>ChatGPT常用链接有哪些？今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就帮大家整理下，除了常用的聊天网站外，还有各种社区、论坛、帮助文章、API参考等！</p>
+<p>OpenAI: <a href="https://openai.com/">https://openai.com/</a></p>
+<p>ChatGPT: <a href="https://chat.openai.com/">https://chat.openai.com/</a></p>
+<p>ChatGPT-4: <a href="https://openai.com/product/gpt-4">https://openai.com/product/gpt-4</a></p>
+<p>DALL·E 2: <a href="https://openai.com/product/dall-e-2">https://openai.com/product/dall-e-2</a></p>
+<p>社区：<a href="https://community.openai.com/">https://community.openai.com/</a></p>
+<p>论坛：<a href="https://discord.com/invite/openai">https://discord.com/invite/openai</a></p>
+<p>ChatGPT帮助中心：<a href="https://help.openai.com/">https://help.openai.com/</a></p>
+<p>ChatGPT帮助文档：<a href="https://platform.openai.com/docs/introduction">https://platform.openai.com/docs/introduction</a></p>
+<p>API：<a href="https://platform.openai.com/docs/api-reference/">https://platform.openai.com/docs/api-reference/</a></p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT论坛</tag>
+        <tag>ChatGPT社区</tag>
+        <tag>ChatGPT帮助文档</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>访问ChatGPT报错Sorry, you have been blocked（抱歉，您已被屏蔽）应该怎么办？</title>
+    <url>/sorry-you-have-been-blocked/</url>
+    <content><![CDATA[<p>最近开始很多朋友在访问ChatGPT官网时会报错ChatGPT Sorry, you have been blocked（抱歉，您已被屏蔽），都以为是自己的ChatGPT账号被封了，其实并不是，那么出现这个问题的原因是什么呢？解决方法又是什么呢？今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下解决ChatGPTyou have been blocked您已被屏蔽的方法。</p>
+<h2 id="屏蔽原因"><a href="#屏蔽原因" class="headerlink" title="屏蔽原因"></a>屏蔽原因</h2><p>Sorry, you have been blocked（抱歉，您已被屏蔽）其实并不是你的ChatGPT账号出问题了，而是你用来访问ChatGPT的那个节点（IP&#x2F;服务器）被屏蔽了。</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-sorry-you-have-been-blocked.png" alt="ChatGPT被屏蔽了" title="ChatGPT被屏蔽了"></p>
+<p>从5月初开始，ChatGPT封禁了很多服务器的IP地址，所以你如果是通过自建服务器的方式来解锁访问ChatGPT，那么大概率会遇到Sorry, you have been blocked（抱歉，您已被屏蔽）或者<a href="https://chatgptzh.github.io/access-denied/" title="Access denied（访问被拒绝）">Access denied（访问被拒绝）</a>的错误。另外，很多机场的节点也被ChatGPT屏蔽了，日本、美国、新加坡、韩国都被封了很多IP。</p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>ChatGPT Sorry, you have been blocked（抱歉，您已被屏蔽）屏蔽的是你的IP地址，所以我们不需要换ChatGPT账号，只需要换个IP重新访问ChatGPT就行了。解决建议<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>分享如下：</p>
+<ol>
+<li>如果你是通过自建服务器的方式来解锁访问ChatGPT，那么推荐你换机场吧，基本叫得上名字的IDC厂商的IP都被ChatGPT封完了；</li>
+<li>如果你已经在使用机场了，那么你可以尝试切换IP地址（节点），如果所有IP（节点）都不行，那只能换代理&#x2F;V.P~N了。</li>
+</ol>
+<p>如果大家不知道什么机场&#x2F;代理可以使用ChatGPT，也可以直接选择搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT">在Just My Socks网络上使用ChatGPT</a>》。</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT打不开访问不了</tag>
+        <tag>ChatGPT Sorry you have been blocked</tag>
+        <tag>ChatGPT抱歉您已被屏蔽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>验证ChatGPT手机号时报错Your account was flagged for potential abuse（您的帐户被标记为可能存在滥用行为）应该怎么办？</title>
+    <url>/your-account-was-flagged-for-potential-abuse/</url>
+    <content><![CDATA[<p>现在国内注册ChatGPT账号遇到的最多的问题就是Your account was flagged for potential abuse（您的帐户被标记为可能存在滥用行为），If you feel this is an error,please contact us at help.openai.com，很多人一看到被标记滥用了就心想完了注册不了了，但其实这个问题还是有解决方法的。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下解决potential abuse滥用行文的方法。</p>
+<h2 id="标记滥用原因"><a href="#标记滥用原因" class="headerlink" title="标记滥用原因"></a>标记滥用原因</h2><p>ChatGPT Your account was flagged for potential abuse，If you feel this is an error,please contact us at help.openai.com（您的帐户被标记为可能存在滥用行为，如果您认为这是一个错误，请联系我们 help.openai.com）<strong>标记的不是你的账号，而是你的IP地址</strong>，注册ChatGPT账号时遇到这个问题的原因是你现在使用的IP不干净，被ChatGPT标记了，所以使用这个IP地址无法成功注册新的ChatGPT账号。</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-account-was-flagged-for-potential-abuse.jpg" alt="ChatGPT被标记滥用" title="ChatGPT被标记滥用"></p>
+<p>现在不管是VPS服务器自建，还是使用梯子代理&#x2F;V~P。N，基本没有干净的IP地址，无一例外几乎都被ChatGPT标记了，所以国内很难注册ChatGPT账号，都是报错potential abuse（滥用），无法验证手机号。</p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>解决Your account was flagged for potential abuse（您的帐户被标记为可能存在滥用行为）的方法就是找到<strong>干净IP地址</strong>，但现在干净IP地址非常非常难找，大部分人试遍了机场所有节点都没有成功，验证ChatGPT手机号时全部报错potential abuse（滥用）。很多人被这个问题困扰了几小时甚至几天，真的值得吗？</p>
+<p>因此，对于这个问题<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>给出以下几个解决建议：</p>
+<ol>
+<li>试试在用的机场，如果有节点能注册成功那是最好的（但是概率很低），如果全部被标记滥用了，就算了，找找其他解决方法；</li>
+<li>有没有国外的朋友，让他们用他们当地的网络帮你注册一个，手机号你就用接码平台的；</li>
+<li>找我们付费解决，我们联系了在美国读书的同学，可以帮你完成账号注册，如有需要联系QQ 201013801或者3271492578；</li>
+<li>购买一个高质量的成品号（不要买批量注册的）：《<a href="https://laowangblog.com/chatgpt-account-purchase.html" title="ChatGPT 账号购买：独享账号，一人一号，手工注册成品号，优质售后">ChatGPT 账号购买：独享账号，一人一号，手工注册成品号，优质售后</a>》。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT国内注册</tag>
+        <tag>ChatGPT注册不了</tag>
+        <tag>ChatGPT手机号</tag>
+        <tag>ChatGPT Your account was flagged for potential abuse</tag>
+        <tag>ChatGPT您的帐户被标记为可能存在滥用行为</tag>
+      </tags>
+  </entry>
+</search>
