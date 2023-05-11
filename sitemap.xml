@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chatgptzh.github.io/keywords/</loc>
+    
+    <lastmod>2023-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/links/</loc>
+    
+    <lastmod>2023-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgptzh.github.io/groups/</loc>
     
     <lastmod>2023-05-11</lastmod>
@@ -32,24 +50,6 @@
     <loc>https://chatgptzh.github.io/your-account-was-flagged-for-potential-abuse/</loc>
     
     <lastmod>2023-05-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chatgptzh.github.io/links/</loc>
-    
-    <lastmod>2023-05-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chatgptzh.github.io/keywords/</loc>
-    
-    <lastmod>2023-05-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -284,6 +284,13 @@
   
   <url>
     <loc>https://chatgptzh.github.io/categories/tutorial/</loc>
+    <lastmod>2023-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/categories/news/</loc>
     <lastmod>2023-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
