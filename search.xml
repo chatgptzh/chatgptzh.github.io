@@ -167,6 +167,35 @@
       </tags>
   </entry>
   <entry>
+    <title>打不开chat.openai.com报错This site can&#39;t be reached（无法访问此网站）应该怎么办</title>
+    <url>/this-site-cant-be-reached/</url>
+    <content><![CDATA[<p>访问ChatGPT官网时报错This site can’t be reached（无法访问此网站）的原因是什么？解决方法又是什么？今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下解决ChatGPT This site can’t be reached（无法访问此网站）的方法。</p>
+<h2 id="无法访问的原因"><a href="#无法访问的原因" class="headerlink" title="无法访问的原因"></a>无法访问的原因</h2><p>This site can’t be reached. chat.opeanai.com took too long to respond.（无法访问此网站，chat.opeanai.com意外终止了连接）是因为你的网络环境（IP）不能访问ChatGPT官网，可能的原因有3个：</p>
+<ol>
+<li><strong>没有科学上网</strong>：国内直接访问chat.opeanai.com会报错这个；</li>
+<li><strong>没有使用全局模式</strong>：一些科学上网的工具默认不是全局，例如只是PAC模式或者绕过中国大陆模式，在这种模式下，你访问chat.opeanai.com时用的就是本地的网络，不走代理；</li>
+<li><strong>代理IP被ChatGPT封了或者你的代理IP封了ChatGPT的访问</strong>：ChatGPT会封禁一些风险比较高的IP（例如很多人使用这个IP同时访问ChatGPT），一些服务商也会禁止用户访问ChatGPT，这两种情况都会导致这个问题。</li>
+</ol>
+<p><img src="/chatgpt-this-site-cant-be-reached-issue.jpeg" alt="ChatGPT This site can’t be reached（无法访问此网站）" title="ChatGPT This site can’t be reached（无法访问此网站）"></p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>真对以上3种情况，<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>依次给出解决方法：</p>
+<ol>
+<li><strong>买代理科学上网</strong>，例如搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！">在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！</a>》；</li>
+<li><strong>将网络模式更换成全局模式</strong>，确保chat.openai.com走代理，可以访问ip138.com看看自己的网络IP；</li>
+<li><strong>更换节点</strong>：可以换代理的其他节点，如果这个代理所有的节点都不行，那就换一个服务商。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT打不开访问不了</tag>
+        <tag>ChatGPT This site can&#39;t be reached</tag>
+        <tag>ChatGPT无法访问此网站</tag>
+        <tag>ChatGPT意外终止了连接</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>验证ChatGPT手机号时报错Your account was flagged for potential abuse（您的帐户被标记为可能存在滥用行为）应该怎么办？</title>
     <url>/your-account-was-flagged-for-potential-abuse/</url>
     <content><![CDATA[<p>现在国内注册ChatGPT账号遇到的最多的问题就是Your account was flagged for potential abuse（您的帐户被标记为可能存在滥用行为），If you feel this is an error,please contact us at help.openai.com，很多人一看到被标记滥用了就心想完了注册不了了，但其实这个问题还是有解决方法的。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下解决potential abuse滥用行文的方法。</p>
