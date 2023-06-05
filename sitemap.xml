@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chatgptzh.github.io/free-account/</loc>
+    
+    <lastmod>2023-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgptzh.github.io/how-to-register-a-chatgpt-account-in-china/</loc>
     
     <lastmod>2023-06-05</lastmod>
@@ -190,6 +199,20 @@
   
   <url>
     <loc>https://chatgptzh.github.io/tags/ChatGPT%E4%BB%A3%E6%B3%A8%E5%86%8C/</loc>
+    <lastmod>2023-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/tags/ChatGPT%E5%85%8D%E8%B4%B9%E5%B8%90%E5%8F%B7/</loc>
+    <lastmod>2023-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/tags/ChatGPT%E8%AF%95%E7%94%A8/</loc>
     <lastmod>2023-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
