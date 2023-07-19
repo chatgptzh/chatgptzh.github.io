@@ -39,7 +39,7 @@
 <h2 id="ChatGPT账号购买方法"><a href="#ChatGPT账号购买方法" class="headerlink" title="ChatGPT账号购买方法"></a>ChatGPT账号购买方法</h2><p>下单地址：<a href="https://gpt.ycestore.com/buy/1">ChatGPT 成品号｜美国本地手工注册的 ChatGPT 账号｜一人一号不共享｜永久免费使用</a></p>
 <p>所有ChatGPT账号都是自动发货的，只要有库存，<strong>下单购买后就会直接将ChatGPT账号密码信息发送到你的邮箱</strong>，注意点包括：</p>
 <ol>
-<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#x63;&#104;&#97;&#x74;&#x67;&#112;&#116;&#97;&#x63;&#99;&#111;&#x75;&#x6e;&#116;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;&#45;&#x2d;&#45;&#45;&#67;&#104;&#97;&#116;&#x47;&#80;&#84;&#x50;&#97;&#x73;&#115;&#x77;&#x6f;&#114;&#x64;&#45;&#x2d;&#x2d;&#x2d;&#71;&#x6d;&#97;&#105;&#x6c;&#80;&#x61;&#x73;&#115;&#119;&#x6f;&#114;&#100;&#45;&#x2d;&#45;&#x2d;&#103;&#109;&#x61;&#105;&#108;&#114;&#101;&#x63;&#111;&#x76;&#101;&#114;&#x79;">&#x63;&#104;&#97;&#x74;&#x67;&#112;&#116;&#97;&#x63;&#99;&#111;&#x75;&#x6e;&#116;&#64;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#109;&#45;&#x2d;&#45;&#45;&#67;&#104;&#97;&#116;&#x47;&#80;&#84;&#x50;&#97;&#x73;&#115;&#x77;&#x6f;&#114;&#x64;&#45;&#x2d;&#x2d;&#x2d;&#71;&#x6d;&#97;&#105;&#x6c;&#80;&#x61;&#x73;&#115;&#119;&#x6f;&#114;&#100;&#45;&#x2d;&#45;&#x2d;&#103;&#109;&#x61;&#105;&#108;&#114;&#101;&#x63;&#111;&#x76;&#101;&#114;&#x79;</a>@gmail.com）；</li>
+<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#x63;&#104;&#97;&#x74;&#103;&#x70;&#116;&#97;&#99;&#99;&#x6f;&#117;&#110;&#116;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;&#x2d;&#45;&#x2d;&#x2d;&#67;&#104;&#97;&#x74;&#71;&#80;&#x54;&#x50;&#97;&#115;&#115;&#x77;&#111;&#114;&#x64;&#x2d;&#x2d;&#x2d;&#x2d;&#71;&#x6d;&#97;&#x69;&#x6c;&#x50;&#x61;&#115;&#x73;&#x77;&#111;&#114;&#x64;&#x2d;&#x2d;&#45;&#x2d;&#x67;&#109;&#97;&#105;&#108;&#114;&#101;&#99;&#x6f;&#118;&#101;&#114;&#121;">&#x63;&#104;&#97;&#x74;&#103;&#x70;&#116;&#97;&#99;&#99;&#x6f;&#117;&#110;&#116;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;&#x2d;&#45;&#x2d;&#x2d;&#67;&#104;&#97;&#x74;&#71;&#80;&#x54;&#x50;&#97;&#115;&#115;&#x77;&#111;&#114;&#x64;&#x2d;&#x2d;&#x2d;&#x2d;&#71;&#x6d;&#97;&#x69;&#x6c;&#x50;&#x61;&#115;&#x73;&#x77;&#111;&#114;&#x64;&#x2d;&#x2d;&#45;&#x2d;&#x67;&#109;&#97;&#105;&#108;&#114;&#101;&#99;&#x6f;&#118;&#101;&#114;&#121;</a>@gmail.com）；</li>
 <li><strong>登录方式</strong> ：<a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a>（直接输入 ChatGPT 账号和 ChatGPT 密码登录，不要选择 Continue with Google， <strong>两种登录方式不通用</strong> ）</li>
 <li>最好用美国 IP 登录，因为这个号也是用美国家宽&#x2F;学校网络手工注册的；</li>
 <li>不要使用同一个 IP 登录多个账号，也不要频繁更换 IP；</li>
@@ -454,6 +454,33 @@
         <tag>ChatGPT This site can&#39;t be reached</tag>
         <tag>ChatGPT无法访问此网站</tag>
         <tag>ChatGPT意外终止了连接</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ChatGPT Unable to load site（无法加载网站）怎么办？</title>
+    <url>/unable-to-load-site/</url>
+    <content><![CDATA[<p>很多朋友在访问ChatGPT官网时遇到了Unable to load site（无法加载网站）的错误，无法登录使用ChatGPT，并且还会提示If you are using a VPN, try turning it off。这个问题的原因是什么呢？解决方法又是什么呢？今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下遇到这个问题应该怎么办。</p>
+<h2 id="Unable-to-load-site的原因"><a href="#Unable-to-load-site的原因" class="headerlink" title="Unable to load site的原因"></a>Unable to load site的原因</h2><p>Unable to load site（无法加载网站）其实就是之前的<a href="https://chatgptzh.github.io/sorry-you-have-been-blocked/">Sorry, you have been blocked（抱歉，您已被屏蔽）</a>，并不是说你的ChatGPT账号被封了，只是说你的IP被ChatGPT检测出是不干净的IP，封了这个IP访问chat.openai.com的权限。</p>
+<p><img src="https://chatgptzh.github.io/images/chatgpt-unable-to-load-site.jpg" alt="ChatGPT Unable to load site" title="ChatGPT Unable to load site"></p>
+<p>虽然错误提示里还有“If you are using a VPN, try turning it off”，但是也不是说就不能用VPN访问ChatGPT了，不然国内的用户还怎么用ChatGPT？这个问题<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>之前在<a href="https://chatgptzh.github.io/if-you-are-using-a-vpn-try-turning-it-off/">不能用VPN访问ChatGPT了？访问ChatGPT提示”如果您正在使用VPN，请尝试将其关闭”怎么办</a>已经讨论过了。</p>
+<h2 id="Unable-to-load-site的解决方法"><a href="#Unable-to-load-site的解决方法" class="headerlink" title="Unable to load site的解决方法"></a>Unable to load site的解决方法</h2><p>ChatGPT Unable to load site（无法加载网站）屏蔽的是你的IP地址，所以我们不需要换ChatGPT账号，解决方法是换个IP重新访问ChatGPT。</p>
+<p>解决建议之前<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>已经分享过了：</p>
+<ol>
+<li>如果你是通过自建服务器的方式来解锁访问ChatGPT，那么推荐你换机场吧，基本叫得上名字的IDC厂商的IP都被ChatGPT封完了；</li>
+<li>如果你已经在使用机场了，那么你可以尝试切换IP地址（节点），如果所有IP（节点）都不行，那只能换代理&#x2F;V.P~N了。</li>
+</ol>
+<p>如果大家不知道什么机场&#x2F;代理可以使用ChatGPT，也可以直接选择搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT">在Just My Socks网络上使用ChatGPT</a>》。</p>
+<p>为了更清楚的让大家了解如何解决 Unable to load site 问题，我们更新了一个手把手教程。为了方便管理，教程放在微信公众号后台了。可以关注<strong>AI研修班</strong>（或者扫描下面的二维码），发送关键字“<strong>block</strong>”即可获取相关教程。</p>
+<p><img src="https://laowangblog.com/wx-qrcode.png" alt="AI研修班"></p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT打不开访问不了</tag>
+        <tag>ChatGPT Unable to load site</tag>
+        <tag>ChatGPT无法加载网站</tag>
       </tags>
   </entry>
   <entry>
