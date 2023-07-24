@@ -30,6 +30,7 @@ https://chatgptzh.github.io/tags/ChatGPT%E6%B3%A8%E5%86%8C%E6%95%99%E7%A8%8B/
 https://chatgptzh.github.io/tags/ChatGPT%E5%9B%BD%E5%86%85%E6%B3%A8%E5%86%8C/
 https://chatgptzh.github.io/tags/ChatGPT%E4%BB%A3%E6%B3%A8%E5%86%8C/
 https://chatgptzh.github.io/tags/OpenAI-ChatGPT-API/
+https://chatgptzh.github.io/tags/API-Key/
 https://chatgptzh.github.io/tags/OpenAI-ChatGPT-API%E8%B4%AD%E4%B9%B0/
 https://chatgptzh.github.io/tags/OpenAI-ChatGPT-API%E5%85%85%E5%80%BC/
 https://chatgptzh.github.io/tags/OpenAI-ChatGPT-API%E7%94%B3%E8%AF%B7/
