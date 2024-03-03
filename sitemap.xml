@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chatgptzh.github.io/continue-back-to-homepage/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgptzh.github.io/chatgpt-plus/</loc>
     
     <lastmod>2024-03-02</lastmod>
@@ -495,14 +504,28 @@
   </url>
   
   <url>
-    <loc>https://chatgptzh.github.io/tags/ChatGPT%E6%B2%A1%E5%8F%8D%E5%BA%94/</loc>
+    <loc>https://chatgptzh.github.io/tags/ChatGPT%E8%BF%9E%E4%B8%8D%E4%B8%8A/</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://chatgptzh.github.io/tags/ChatGPT%E8%BF%9E%E4%B8%8D%E4%B8%8A/</loc>
+    <loc>https://chatgptzh.github.io/tags/ChatGPT%E5%B0%81%E5%8F%B7/</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/tags/ChatGPT%E7%94%A8%E4%B8%8D%E4%BA%86/</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/tags/ChatGPT%E6%B2%A1%E5%8F%8D%E5%BA%94/</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
