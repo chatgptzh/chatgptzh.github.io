@@ -39,7 +39,7 @@
 <h2 id="ChatGPT账号购买方法"><a href="#ChatGPT账号购买方法" class="headerlink" title="ChatGPT账号购买方法"></a>ChatGPT账号购买方法</h2><p>下单地址：<a href="https://gpt.ycestore.com/buy/1">ChatGPT 成品号｜美国本地手工注册的 ChatGPT 账号｜一人一号不共享｜永久免费使用</a></p>
 <p>所有ChatGPT账号都是自动发货的，只要有库存，<strong>下单购买后就会直接将ChatGPT账号密码信息发送到你的邮箱</strong>，注意点包括：</p>
 <ol>
-<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#99;&#104;&#97;&#x74;&#103;&#112;&#116;&#97;&#x63;&#99;&#111;&#117;&#x6e;&#x74;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;&#x2d;&#45;&#x2d;&#x2d;&#x43;&#104;&#97;&#x74;&#x47;&#x50;&#x54;&#80;&#x61;&#x73;&#x73;&#119;&#111;&#x72;&#100;&#x2d;&#45;&#45;&#x2d;&#x47;&#x6d;&#97;&#x69;&#x6c;&#x50;&#x61;&#115;&#x73;&#x77;&#x6f;&#114;&#100;&#x2d;&#45;&#x2d;&#45;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#114;&#101;&#99;&#111;&#118;&#101;&#114;&#x79;">&#99;&#104;&#97;&#x74;&#103;&#112;&#116;&#97;&#x63;&#99;&#111;&#117;&#x6e;&#x74;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;&#x2d;&#45;&#x2d;&#x2d;&#x43;&#104;&#97;&#x74;&#x47;&#x50;&#x54;&#80;&#x61;&#x73;&#x73;&#119;&#111;&#x72;&#100;&#x2d;&#45;&#45;&#x2d;&#x47;&#x6d;&#97;&#x69;&#x6c;&#x50;&#x61;&#115;&#x73;&#x77;&#x6f;&#114;&#100;&#x2d;&#45;&#x2d;&#45;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#114;&#101;&#99;&#111;&#118;&#101;&#114;&#x79;</a>@gmail.com）；</li>
+<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#x63;&#104;&#97;&#x74;&#x67;&#112;&#116;&#x61;&#x63;&#99;&#x6f;&#x75;&#x6e;&#x74;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;&#45;&#x2d;&#x2d;&#x2d;&#x43;&#104;&#x61;&#x74;&#71;&#x50;&#x54;&#x50;&#97;&#x73;&#x73;&#x77;&#111;&#x72;&#x64;&#45;&#45;&#x2d;&#x2d;&#x47;&#109;&#x61;&#105;&#x6c;&#x50;&#97;&#x73;&#115;&#x77;&#111;&#x72;&#100;&#45;&#x2d;&#x2d;&#45;&#x67;&#109;&#97;&#x69;&#108;&#114;&#x65;&#x63;&#x6f;&#x76;&#101;&#x72;&#x79;">&#x63;&#104;&#97;&#x74;&#x67;&#112;&#116;&#x61;&#x63;&#99;&#x6f;&#x75;&#x6e;&#x74;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;&#45;&#x2d;&#x2d;&#x2d;&#x43;&#104;&#x61;&#x74;&#71;&#x50;&#x54;&#x50;&#97;&#x73;&#x73;&#x77;&#111;&#x72;&#x64;&#45;&#45;&#x2d;&#x2d;&#x47;&#109;&#x61;&#105;&#x6c;&#x50;&#97;&#x73;&#115;&#x77;&#111;&#x72;&#100;&#45;&#x2d;&#x2d;&#45;&#x67;&#109;&#97;&#x69;&#108;&#114;&#x65;&#x63;&#x6f;&#x76;&#101;&#x72;&#x79;</a>@gmail.com）；</li>
 <li><strong>登录方式</strong> ：<a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a>（直接输入 ChatGPT 账号和 ChatGPT 密码登录，不要选择 Continue with Google， <strong>两种登录方式不通用</strong> ）</li>
 <li>最好用美国 IP 登录，因为这个号也是用美国家宽&#x2F;学校网络手工注册的；</li>
 <li>不要使用同一个 IP 登录多个账号，也不要频繁更换 IP；</li>
@@ -560,6 +560,169 @@
       </tags>
   </entry>
   <entry>
+    <title>ChatGPT打不开/ChatGPT用不了/ChatGPT登不上/ChatGPT连不上/国内使用ChatGPT问题整理（长期更新）</title>
+    <url>/issues-when-using-chatpgt-in-china/</url>
+    <content><![CDATA[<p>由于OpenAI并没有开放国区的ChatGPT，所以在国内使用ChatGPT时会遇到各种问题，这篇文章<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就整理下国内在使用ChatGPT时可能遇到的各种问题以及对应的解决方法，包括但不限于ChatGPT打不开、ChatGPT用不了、ChatGPT登不上、ChatGPT连不上。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><strong>绝大部分ChatGPT用不了的问题都网络问题</strong>，国内使用ChatGPT必须要用梯子，一些便宜的梯子提供的服务都是成百上千，甚至上万的人同时用一个IP地址，用这种IP地址访问ChatGPT自然会出现各种问题，因为OpenAI&#x2F;ChatGPT对IP的要求高，上万人用的IP可能访问Google&#x2F;YouTube没问题，但是就是用不了ChatGPT。</p>
+<p>因此，<strong>绝大部分ChatGPT用不了的问题都可以通过换节点的方式解决</strong>。如果你尝试了所有的节点都不行，那么可以直接选择搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT">在Just My Socks网络上使用ChatGPT</a>》。</p>
+<p>另外，<strong>ChatGPT客户端（包括iOS苹果客户端和安卓客户端）对IP的要求比浏览器更高</strong>，同样的节点，同样的一台手机，客户端登不上，但是在浏览器访问<a href="https://chat.openai.com/">https://chat.openai.com</a>可能就正常。</p>
+<p>本页面会长期更新，你可以直接搜索问题关键字，看看本页面有没有收录，如果没有的话，可以加入<a href="https://chatgptzh.github.io/groups/">ChatGPT交流群</a>问问大家。</p>
+<h2 id="This-site-can’t-be-reached（无法访问此网站）"><a href="#This-site-can’t-be-reached（无法访问此网站）" class="headerlink" title="This site can’t be reached（无法访问此网站）"></a>This site can’t be reached（无法访问此网站）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-this-site-cant-be-reached-issue.jpeg" alt="ChatGPT This site can’t be reached（无法访问此网站）" title="ChatGPT This site can’t be reached（无法访问此网站）"></p>
+<p>这个是直接网络请求都没发到chat.openai.com去，原因可能是：</p>
+<ol>
+<li><strong>没有科学上网</strong>：国内直接访问chat.opeanai.com会报错这个；</li>
+<li><strong>没有使用全局模式</strong>：一些科学上网的工具默认不是全局，例如只是PAC模式或者绕过中国大陆模式，在这种模式下，你访问chat.opeanai.com时用的就是本地的网络，不走代理；</li>
+<li><strong>代理IP被ChatGPT封了或者你的代理IP封了ChatGPT的访问</strong>：ChatGPT会封禁一些风险比较高的IP（例如很多人使用这个IP同时访问ChatGPT），一些服务商也会禁止用户访问ChatGPT，这两种情况都会导致这个问题。</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>打开科学上网工工具</li>
+<li>检查自己的软件是不是有全局模式，或者手动配置将openai.com加到规则里去</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/this-site-cant-be-reached/">打不开chat.openai.com报错This site can’t be reached（无法访问此网站）应该怎么办</a></p>
+<h2 id="Access-deinied（访问被拒绝）"><a href="#Access-deinied（访问被拒绝）" class="headerlink" title="Access deinied（访问被拒绝）"></a>Access deinied（访问被拒绝）</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-access-denied.png" alt="ChatGPT Access denied" title="ChatGPT Access denied"></p>
+<p>Access deinied（访问被拒绝）问题现在比较少见了，同样是没法访问ChatGPT官网，原因可能是：</p>
+<ol>
+<li>当前所在地区&#x2F;国家没有开放ChatGPT访问权限：例如中国大陆和中国香港现阶段都是无法使用ChatGPT的；</li>
+<li>当前使用的代理IP被ChatGPT封了：ChatGPT会封禁一些万人骑的IP，尤其是IDC厂商的IP段，封了后也可能报这个错误。</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/access-denied/">访问ChatGPT报错Access deinied访问被拒绝应该怎么办？</a></p>
+<h2 id="Sorry-you-have-been-blocked（抱歉，您已被屏蔽）"><a href="#Sorry-you-have-been-blocked（抱歉，您已被屏蔽）" class="headerlink" title="Sorry, you have been blocked（抱歉，您已被屏蔽）"></a>Sorry, you have been blocked（抱歉，您已被屏蔽）</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-sorry-you-have-been-blocked.png" alt="ChatGPT被屏蔽了" title="ChatGPT被屏蔽了"></p>
+<p>之前的Access deinied（访问被拒绝）现在基本被Sorry, you have been blocked（抱歉，您已被屏蔽）替代了，原因是：</p>
+<ol>
+<li>节点被ChatGPT封了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换工具</li>
+</ol>
+<p>后来这个提示还多了一个If you are using a VPN, try turning it off.（如果您正在使用VPN，请尝试将其关闭。）的提示，如下图，其实原因和解决方法是一样的：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-if-you-are-using-a-vpn-try-turning-if-off.jpg" alt="ChatGPT被屏蔽了" title="ChatGPT被屏蔽了"></p>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/if-you-are-using-a-vpn-try-turning-it-off/">不能用VPN访问ChatGPT了？访问ChatGPT提示”如果您正在使用VPN，请尝试将其关闭”怎么办</a></p>
+<h2 id="Unable-to-load-site（无法加载网站）"><a href="#Unable-to-load-site（无法加载网站）" class="headerlink" title="Unable to load site（无法加载网站）"></a>Unable to load site（无法加载网站）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-unable-to-load-site.jpg" alt="ChatGPT Unable to load site" title="ChatGPT Unable to load site"></p>
+<p>网页直接打不开，但其实跟Sorry, you have been blocked（抱歉，您已被屏蔽）是一个错误，问题原因：</p>
+<ol>
+<li>节点被ChatGPT封了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/unable-to-load-site/">ChatGPT Unable to load site（无法加载网站）怎么办？</a></p>
+<h2 id="Unable-to-load-history（无法加载历史记录）"><a href="#Unable-to-load-history（无法加载历史记录）" class="headerlink" title="Unable to load history（无法加载历史记录）"></a>Unable to load history（无法加载历史记录）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-unable-to-load-history.png" alt="ChatGPT unable to load history"></p>
+<p>这是登录成功了，但是加载不了网站，不显示账号信息，也无法问ChatGPT问题，左侧提示Unable to load history（无法加载历史记录），问题原因可能是：</p>
+<ol>
+<li>节点网络不行</li>
+<li>OpenAI服务器崩了（概率比较小，只有新功能发布，很多人同时用新功能才有可能）</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>等会再试</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/unable-to-load-history/">ChatGPT Unable to load history（无法加载历史记录），不显示账号信息怎么办？</a></p>
+<h2 id="点击Continue没反应"><a href="#点击Continue没反应" class="headerlink" title="点击Continue没反应"></a>点击Continue没反应</h2><p>输完账号密码，点击Continue后等了很久也没反应，问题原因：</p>
+<ol>
+<li>网络问题</li>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>可以尝试多按几次Continue</li>
+<li>换节点尝试</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/continue-no-response/">ChatGPT登录不上，点击Continue没反应是什么问题？</a></p>
+<h2 id="点击Continue退回首页"><a href="#点击Continue退回首页" class="headerlink" title="点击Continue退回首页"></a>点击Continue退回首页</h2><p>输完账号密码，点击Continue后又返回到了首页，问题原因：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/continue-back-to-homepage/">ChatGPT点击Continue登录后又跳回首页没登录成功是账号被封了吗</a></p>
+<h2 id="429-You-are-being-rate-limited"><a href="#429-You-are-being-rate-limited" class="headerlink" title="429 You are being rate limited"></a>429 You are being rate limited</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-429.png" alt="ChatGPT 429 You are being rate limited"></p>
+<p>在http网络请求中，429错误一般都是Too Many Requests，即在一定的时间内用户发送了太多的请求，超出了频次限制，所以ChatGPT 429的原因是：</p>
+<ol>
+<li>用你这个节点的人太多，在段时间内大量访问了OpenAI&#x2F;ChatGPT服务，被限制了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>等一会再试</li>
+<li>换节点</li>
+</ol>
+<h2 id="experiencing-exceptionally-high-demand（正在经历异常高的需求）"><a href="#experiencing-exceptionally-high-demand（正在经历异常高的需求）" class="headerlink" title="experiencing exceptionally high demand（正在经历异常高的需求）"></a>experiencing exceptionally high demand（正在经历异常高的需求）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-experiencing-exceptionally-high-demand.jpg" alt="ChatGPT experiencing exceptionally high demand"></p>
+<p>问题原因：</p>
+<ol>
+<li>OpenAI服务器过载</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>等一段时间再试</li>
+</ol>
+<h2 id="failed-to-obtain-your-user-account（无法获取您的用户帐户）"><a href="#failed-to-obtain-your-user-account（无法获取您的用户帐户）" class="headerlink" title="failed to obtain your user account（无法获取您的用户帐户）"></a>failed to obtain your user account（无法获取您的用户帐户）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-failed-to-obtain-your-user-account.jpg" alt="ChatGPT failed to obtain your user account"></p>
+<p>问题原因：</p>
+<ol>
+<li>OpenAI临时bug</li>
+<li>网络问题</li>
+</ol>
+<p>解决方法</p>
+<ol>
+<li>等一会再试</li>
+<li>换一个节点</li>
+</ol>
+<h2 id="make-sure-your-device’s-date-and-time-are-set-properly"><a href="#make-sure-your-device’s-date-and-time-are-set-properly" class="headerlink" title="make sure your device’s date and time are set properly"></a>make sure your device’s date and time are set properly</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-date-and-time-are-set-properly.jpg" alt="make sure your device’s date and time are set properly"></p>
+<p>这个问题出现在ChatGPT客户端，完整提示：Something went wrong. Please make sure your device’s date and time are set properly. Check that your internet connection is stable, then restart the app and try again.（出了些问题。 请确保您设备的日期和时间设置正确。 检查您的互联网连接是否稳定，然后重新启动应用程序并重试），看提示似乎是手机日期或者时间的问题，但其实并不是，你更改了时间后又会遇到其他问题（并且没有必要换时间），问题原因：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<h2 id="connected-to-a-disallowed-ISP"><a href="#connected-to-a-disallowed-ISP" class="headerlink" title="connected to a disallowed ISP"></a>connected to a disallowed ISP</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-disallowed-isp.jpg" alt="connected to a disallowed ISP"></p>
+<p>这个问题出现在ChatGPT客户端，完整提示：Something went wrong. You may be connected to a disallowed ISP If you are using VPN, try disabling it. Otherwise try a different Wi-Fi networkor data connection.（出了些问题。 您可能连接到了不允许的 ISP 如果您正在使用 VPN，请尝试禁用它。 否则尝试不同的 Wi-Fi 网络或数据连接），问题原因：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<h2 id="Sign-in-failed，An-error-occurred-during-fetching-values-for-the-user-403"><a href="#Sign-in-failed，An-error-occurred-during-fetching-values-for-the-user-403" class="headerlink" title="Sign in failed，An error occurred during fetching values for the user. 403"></a>Sign in failed，An error occurred during fetching values for the user. 403</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-sign-in-failed-403.png" alt="connected to a disallowed ISP"></p>
+<p>这个问题出现在ChatGPT客户端，是最近刚出现的，403网络状态码的意思就是访问被拒，所以问题原因是：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<p>本页面会长期更新国内使用ChatGPT时遇到的各种问题，欢迎收藏。如果没有你遇到的问题的话，可以加入<a href="https://chatgptzh.github.io/groups/">ChatGPT交流群</a>问问大家。</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT登不上</tag>
+        <tag>ChatGPT连不上</tag>
+        <tag>ChatGPT用不了</tag>
+        <tag>ChatGPT打不开</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>名词解释：GPT、GPT-3.5、GPT-4、ChatGPT、ChatGPT Plus、OpenAI、API</title>
     <url>/keywords/</url>
     <content><![CDATA[<p>人工智能大火，我们在哪里都会看到ChatGPT相关的新闻或者视频，这些报道中总会有一些专业名词，听的人雨里雾里的，今天ChatGPT中文网就先给大家科普下这些专业名词的解释。</p>
@@ -705,7 +868,7 @@
 <li><strong>没有使用全局模式</strong>：一些科学上网的工具默认不是全局，例如只是PAC模式或者绕过中国大陆模式，在这种模式下，你访问chat.opeanai.com时用的就是本地的网络，不走代理；</li>
 <li><strong>代理IP被ChatGPT封了或者你的代理IP封了ChatGPT的访问</strong>：ChatGPT会封禁一些风险比较高的IP（例如很多人使用这个IP同时访问ChatGPT），一些服务商也会禁止用户访问ChatGPT，这两种情况都会导致这个问题。</li>
 </ol>
-<p><img src="/chatgpt-this-site-cant-be-reached-issue.jpeg" alt="ChatGPT This site can’t be reached（无法访问此网站）" title="ChatGPT This site can’t be reached（无法访问此网站）"></p>
+<p><img src="https://chatgptzh.github.io/images/chatgpt-this-site-cant-be-reached-issue.jpeg" alt="ChatGPT This site can’t be reached（无法访问此网站）" title="ChatGPT This site can’t be reached（无法访问此网站）"></p>
 <h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>真对以上3种情况，<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>依次给出解决方法：</p>
 <ol>
 <li><strong>买代理科学上网</strong>，例如搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！">在Just My Socks网络上使用ChatGPT：解决ChatGPT Access denied！</a>》；</li>
