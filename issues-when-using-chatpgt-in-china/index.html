@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3EsDGRw6S6g8wG7t",ck:"3EsDGRw6S6g8wG7t"})</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/avatar.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/avatar.png" color="#222">
+  <meta name="google-site-verification" content="I0AdiK9ghFbhDtTfcIea3jMWVbELLTjqS9UbQTSKrgE">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"chatgptzh.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/config.min.js"></script>
+
+    <meta name="description" content="由于OpenAI并没有开放国区的ChatGPT，所以在国内使用ChatGPT时会遇到各种问题，这篇文章ChatGPT中文网就整理下国内在使用ChatGPT时可能遇到的各种问题以及对应的解决方法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ChatGPT打不开&#x2F;ChatGPT用不了&#x2F;ChatGPT登不上&#x2F;ChatGPT连不上&#x2F;国内使用ChatGPT问题整理（长期更新）">
+<meta property="og:url" content="https://chatgptzh.github.io/issues-when-using-chatpgt-in-china/index.html">
+<meta property="og:site_name" content="ChatGPT中文网">
+<meta property="og:description" content="由于OpenAI并没有开放国区的ChatGPT，所以在国内使用ChatGPT时会遇到各种问题，这篇文章ChatGPT中文网就整理下国内在使用ChatGPT时可能遇到的各种问题以及对应的解决方法">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-this-site-cant-be-reached-issue.jpeg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/ChatGPT-access-denied.png">
+<meta property="og:image" content="https://chatgptzh.github.io/images/ChatGPT-sorry-you-have-been-blocked.png">
+<meta property="og:image" content="https://chatgptzh.github.io/images/ChatGPT-if-you-are-using-a-vpn-try-turning-if-off.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-unable-to-load-site.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-unable-to-load-history.png">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-429.png">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-experiencing-exceptionally-high-demand.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-failed-to-obtain-your-user-account.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-date-and-time-are-set-properly.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-disallowed-isp.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-sign-in-failed-403.png">
+<meta property="og:image" content="https://chatgptzh.github.io/images/ChatGPT-too-many-requests-in-1-hour-try-anain-later.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-we-have-detected-suspicous-login-behavior.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-we-have-detected-suspicous-login-behavior-cn.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/chatgpt-failed-to-load-required-information.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/ChatGPT-response-uncompleted.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/ChatGPT-unable-to-load-conversation.png">
+<meta property="article:published_time" content="2024-03-04T09:02:32.000Z">
+<meta property="article:modified_time" content="2024-03-08T15:12:43.782Z">
+<meta property="article:author" content="ChatGPT">
+<meta property="article:tag" content="ChatGPT">
+<meta property="article:tag" content="ChatGPT打不开访问不了">
+<meta property="article:tag" content="ChatGPT Access denied">
+<meta property="article:tag" content="ChatGPT访问被拒绝">
+<meta property="article:tag" content="ChatGPT登不上">
+<meta property="article:tag" content="ChatGPT连不上">
+<meta property="article:tag" content="ChatGPT封号">
+<meta property="article:tag" content="ChatGPT用不了">
+<meta property="article:tag" content="ChatGPT没反应">
+<meta property="article:tag" content="ChatGPT Sorry you have been blocked">
+<meta property="article:tag" content="ChatGPT抱歉您已被屏蔽">
+<meta property="article:tag" content="ChatGPT VPN">
+<meta property="article:tag" content="ChatGPT打不开">
+<meta property="article:tag" content="ChatGPT客户端用不了">
+<meta property="article:tag" content="ChatGPT This site can&#39;t be reached">
+<meta property="article:tag" content="ChatGPT无法访问此网站">
+<meta property="article:tag" content="ChatGPT意外终止了连接">
+<meta property="article:tag" content="ChatGPT Unable to load site">
+<meta property="article:tag" content="ChatGPT无法加载网站">
+<meta property="article:tag" content="ChatGPT Unable to load history">
+<meta property="article:tag" content="ChatGPT 429 You are being rate limited">
+<meta property="article:tag" content="ChatGPT experiencing exceptionally high demand">
+<meta property="article:tag" content="ChatGPT服务器资源过载">
+<meta property="article:tag" content="ChatGPT failed to obtain your user account">
+<meta property="article:tag" content="ChatGPT connected to a disallowed ISP">
+<meta property="article:tag" content="ChatGPT Sign in failed An error occurred during fetching values for the user 403">
+<meta property="article:tag" content="ChatGPT Too many requests in 1 hour">
+<meta property="article:tag" content="ChatGPT 1小时内请求过多">
+<meta property="article:tag" content="ChatGPT We have detected suspicious login">
+<meta property="article:tag" content="ChatGPT 我们检测到可疑的登录行为">
+<meta property="article:tag" content="ChatGPT Failed to load reguired information">
+<meta property="article:tag" content="ChatGPT无法加载所需信息">
+<meta property="article:tag" content="ChatGPT Unable to load conversation">
+<meta property="article:tag" content="ChatGPT无法加载对话">
+<meta property="article:tag" content="给ChatGPT发消息没有反应">
+<meta property="article:tag" content="无法给ChatGPT发消息">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chatgptzh.github.io/images/chatgpt-this-site-cant-be-reached-issue.jpeg">
+
+
+<link rel="canonical" href="https://chatgptzh.github.io/issues-when-using-chatpgt-in-china/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://chatgptzh.github.io/issues-when-using-chatpgt-in-china/","path":"issues-when-using-chatpgt-in-china/","title":"ChatGPT打不开/ChatGPT用不了/ChatGPT登不上/ChatGPT连不上/国内使用ChatGPT问题整理（长期更新）"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>ChatGPT打不开/ChatGPT用不了/ChatGPT登不上/ChatGPT连不上/国内使用ChatGPT问题整理（长期更新） | ChatGPT中文网</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ChatGPT中文网</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">分享ChatGPT资讯和ChatGPT教程</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-chatgpt账号购买"><a href="https://chatgptzh.github.io/account-buy/" rel="section"><i class="fa fa-cart-shopping fa-fw"></i>ChatGPT账号购买</a></li><li class="menu-item menu-item-chatgpt代注册"><a href="https://chatgptzh.github.io/account-dai/" rel="section"><i class="fa fa-shopping-cart fa-fw"></i>ChatGPT代注册</a></li><li class="menu-item menu-item-api-key购买"><a href="https://chatgptzh.github.io/api-key/" rel="section"><i class="fa fa-shopping-cart fa-fw"></i>API key购买</a></li><li class="menu-item menu-item-chatgpt知识星球"><a href="https://chatgptzh.github.io/zsxq/" rel="section"><i class="fa fa-book fa-fw"></i>ChatGPT知识星球</a></li><li class="menu-item menu-item-交流群"><a href="https://chatgptzh.github.io/groups/" rel="section"><i class="fa fa-user fa-fw"></i>交流群</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div style="margin-top: 12px">
+        <a href="https://chatgptboke.com/zsxq.html" target="_blank">
+                <img src="https://laowangblog.com/chatgpt-zsxq-ad.png" alt="ad" width="360" height="260" style="height: auto">
+        </a>
+    </div>
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#This-site-can%E2%80%99t-be-reached%EF%BC%88%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%AD%A4%E7%BD%91%E7%AB%99%EF%BC%89"><span class="nav-number">2.</span> <span class="nav-text">This site can’t be reached（无法访问此网站）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Access-deinied%EF%BC%88%E8%AE%BF%E9%97%AE%E8%A2%AB%E6%8B%92%E7%BB%9D%EF%BC%89"><span class="nav-number">3.</span> <span class="nav-text">Access deinied（访问被拒绝）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sorry-you-have-been-blocked%EF%BC%88%E6%8A%B1%E6%AD%89%EF%BC%8C%E6%82%A8%E5%B7%B2%E8%A2%AB%E5%B1%8F%E8%94%BD%EF%BC%89"><span class="nav-number">4.</span> <span class="nav-text">Sorry, you have been blocked（抱歉，您已被屏蔽）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unable-to-load-site%EF%BC%88%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E7%BD%91%E7%AB%99%EF%BC%89"><span class="nav-number">5.</span> <span class="nav-text">Unable to load site（无法加载网站）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unable-to-load-history%EF%BC%88%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%EF%BC%89"><span class="nav-number">6.</span> <span class="nav-text">Unable to load history（无法加载历史记录）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%82%B9%E5%87%BBContinue%E6%B2%A1%E5%8F%8D%E5%BA%94"><span class="nav-number">7.</span> <span class="nav-text">点击Continue没反应</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%82%B9%E5%87%BBContinue%E9%80%80%E5%9B%9E%E9%A6%96%E9%A1%B5"><span class="nav-number">8.</span> <span class="nav-text">点击Continue退回首页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#429-You-are-being-rate-limited"><span class="nav-number">9.</span> <span class="nav-text">429 You are being rate limited</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#experiencing-exceptionally-high-demand%EF%BC%88%E6%AD%A3%E5%9C%A8%E7%BB%8F%E5%8E%86%E5%BC%82%E5%B8%B8%E9%AB%98%E7%9A%84%E9%9C%80%E6%B1%82%EF%BC%89"><span class="nav-number">10.</span> <span class="nav-text">experiencing exceptionally high demand（正在经历异常高的需求）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#failed-to-obtain-your-user-account%EF%BC%88%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E6%82%A8%E7%9A%84%E7%94%A8%E6%88%B7%E5%B8%90%E6%88%B7%EF%BC%89"><span class="nav-number">11.</span> <span class="nav-text">failed to obtain your user account（无法获取您的用户帐户）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#make-sure-your-device%E2%80%99s-date-and-time-are-set-properly"><span class="nav-number">12.</span> <span class="nav-text">make sure your device’s date and time are set properly</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#connected-to-a-disallowed-ISP"><span class="nav-number">13.</span> <span class="nav-text">connected to a disallowed ISP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sign-in-failed%EF%BC%8CAn-error-occurred-during-fetching-values-for-the-user-403"><span class="nav-number">14.</span> <span class="nav-text">Sign in failed，An error occurred during fetching values for the user. 403</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Too-many-requests-in-1-hour%EF%BC%881%E5%B0%8F%E6%97%B6%E5%86%85%E8%AF%B7%E6%B1%82%E8%BF%87%E5%A4%9A%EF%BC%89"><span class="nav-number">15.</span> <span class="nav-text">Too many requests in 1 hour（1小时内请求过多）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#We-have-detected-suspicious-login-behavior%EF%BC%88%E6%88%91%E4%BB%AC%E6%A3%80%E6%B5%8B%E5%88%B0%E5%8F%AF%E7%96%91%E7%9A%84%E7%99%BB%E5%BD%95%E8%A1%8C%E4%B8%BA%EF%BC%8C%E5%B0%86%E9%98%BB%E6%AD%A2%E8%BF%9B%E4%B8%80%E6%AD%A5%E7%9A%84%E5%B0%9D%E8%AF%95%EF%BC%89"><span class="nav-number">16.</span> <span class="nav-text">We have detected suspicious login behavior（我们检测到可疑的登录行为，将阻止进一步的尝试）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Failed-to-load-reguired-information%EF%BC%88%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E6%89%80%E9%9C%80%E4%BF%A1%E6%81%AF%EF%BC%89"><span class="nav-number">17.</span> <span class="nav-text">Failed to load reguired information（无法加载所需信息）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ChatGPT%E5%9B%9E%E5%A4%8D%E5%8F%AA%E6%9C%89%E6%96%AD%E6%96%AD%E7%BB%AD%E7%BB%AD%E5%87%A0%E4%B8%AA%E5%AD%97"><span class="nav-number">18.</span> <span class="nav-text">ChatGPT回复只有断断续续几个字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Unable-to-load-conversation%EF%BC%88%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%AF%B9%E8%AF%9D%EF%BC%89"><span class="nav-number">19.</span> <span class="nav-text">Unable to load conversation（无法加载对话）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%99ChatGPT%E5%8F%91%E6%B6%88%E6%81%AF%E6%B2%A1%E6%9C%89%E5%8F%8D%E5%BA%94"><span class="nav-number">20.</span> <span class="nav-text">给ChatGPT发消息没有反应</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ChatGPT"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ChatGPT</p>
+  <div class="site-description" itemprop="description">ChatGPT中文网，分享ChatGPT中文教程，包括ChatGPT账号注册申请、ChatGPT IP解锁、ChatGPT Plus升级、ChatGPT使用等教程。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">25</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">91</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://chatgptzh.github.io/issues-when-using-chatpgt-in-china/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ChatGPT">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ChatGPT中文网">
+      <meta itemprop="description" content="ChatGPT中文网，分享ChatGPT中文教程，包括ChatGPT账号注册申请、ChatGPT IP解锁、ChatGPT Plus升级、ChatGPT使用等教程。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="ChatGPT打不开/ChatGPT用不了/ChatGPT登不上/ChatGPT连不上/国内使用ChatGPT问题整理（长期更新） | ChatGPT中文网">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header"  style="margin-bottom: 0px">
+        <h1 class="post-title" itemprop="name headline">
+          ChatGPT打不开/ChatGPT用不了/ChatGPT登不上/ChatGPT连不上/国内使用ChatGPT问题整理（长期更新）
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-03-04 17:02:32" itemprop="dateCreated datePublished" datetime="2024-03-04T17:02:32+08:00">2024-03-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-03-08 23:12:43" itemprop="dateModified" datetime="2024-03-08T23:12:43+08:00">2024-03-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tutorial/" itemprop="url" rel="index"><span itemprop="name">tutorial</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+           
+		<a href="https://chatgptboke.com/account.html" target="_blank"> 
+			<img src="https://laowangblog.com/chatgpt-account-ad-large.png" style="margin-bottom: 2px" width="828" height="60" alt="ChatGPT 账号/ChatGPT 代注册"></a>
+<a href="https://chatgptboke.com/openai-api-dai.html" target="_blank">
+                        <img src="https://laowangblog.com/api-dai-ad.png" style="margin-bottom: 2px" width="828" height="60" alt="ChatGPT Plus代升级"></a>
+                <a href="https://chatgptboke.com/visa-mastercard-for-chatgpt-plus.html" target="_blank">
+                        <img src="https://laowangblog.com/chatgpt-plus-ad.png" style="margin-bottom: 2px" width="828" height="60" alt="ChatGPT Plus代升级"></a>
+	  
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>由于OpenAI并没有开放国区的ChatGPT，所以在国内使用ChatGPT时会遇到各种问题，这篇文章<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就整理下国内在使用ChatGPT时可能遇到的各种问题以及对应的解决方法，包括但不限于ChatGPT打不开、ChatGPT用不了、ChatGPT登不上、ChatGPT连不上。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><strong>绝大部分ChatGPT用不了的问题都网络问题</strong>，国内使用ChatGPT必须要用梯子，一些便宜的梯子提供的服务都是成百上千，甚至上万的人同时用一个IP地址，用这种IP地址访问ChatGPT自然会出现各种问题，因为OpenAI&#x2F;ChatGPT对IP的要求高，上万人用的IP可能访问Google&#x2F;YouTube没问题，但是就是用不了ChatGPT。</p>
+<p>因此，<strong>绝大部分ChatGPT用不了的问题都可以通过换节点的方式解决</strong>。如果你尝试了所有的节点都不行，那么可以直接选择搬瓦工的<a target="_blank" rel="noopener" href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>，据<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>所知，它是确保能访问ChatGPT的：《<a target="_blank" rel="noopener" href="https://justmysockschatgpt.com/chatgpt.html" title="在Just My Socks网络上使用ChatGPT">在Just My Socks网络上使用ChatGPT</a>》。</p>
+<p>另外，<strong>ChatGPT客户端（包括iOS苹果客户端和安卓客户端）对IP的要求比浏览器更高</strong>，同样的节点，同样的一台手机，客户端登不上，但是在浏览器访问<a target="_blank" rel="noopener" href="https://chat.openai.com/">https://chat.openai.com</a>可能就正常。</p>
+<p>本页面会长期更新，你可以直接搜索问题关键字，看看本页面有没有收录，如果没有的话，可以加入<a href="https://chatgptzh.github.io/groups/">ChatGPT交流群</a>问问大家。</p>
+<h2 id="This-site-can’t-be-reached（无法访问此网站）"><a href="#This-site-can’t-be-reached（无法访问此网站）" class="headerlink" title="This site can’t be reached（无法访问此网站）"></a>This site can’t be reached（无法访问此网站）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-this-site-cant-be-reached-issue.jpeg" alt="ChatGPT This site can’t be reached（无法访问此网站）" title="ChatGPT This site can’t be reached（无法访问此网站）"></p>
+<p>这个是直接网络请求都没发到chat.openai.com去，原因可能是：</p>
+<ol>
+<li><strong>没有科学上网</strong>：国内直接访问chat.opeanai.com会报错这个；</li>
+<li><strong>没有使用全局模式</strong>：一些科学上网的工具默认不是全局，例如只是PAC模式或者绕过中国大陆模式，在这种模式下，你访问chat.opeanai.com时用的就是本地的网络，不走代理；</li>
+<li><strong>代理IP被ChatGPT封了或者你的代理IP封了ChatGPT的访问</strong>：ChatGPT会封禁一些风险比较高的IP（例如很多人使用这个IP同时访问ChatGPT），一些服务商也会禁止用户访问ChatGPT，这两种情况都会导致这个问题。</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>打开科学上网工工具</li>
+<li>检查自己的软件是不是有全局模式，或者手动配置将openai.com加到规则里去</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/this-site-cant-be-reached/">打不开chat.openai.com报错This site can’t be reached（无法访问此网站）应该怎么办</a></p>
+<h2 id="Access-deinied（访问被拒绝）"><a href="#Access-deinied（访问被拒绝）" class="headerlink" title="Access deinied（访问被拒绝）"></a>Access deinied（访问被拒绝）</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-access-denied.png" alt="ChatGPT Access denied" title="ChatGPT Access denied"></p>
+<p>Access deinied（访问被拒绝）问题现在比较少见了，同样是没法访问ChatGPT官网，原因可能是：</p>
+<ol>
+<li>当前所在地区&#x2F;国家没有开放ChatGPT访问权限：例如中国大陆和中国香港现阶段都是无法使用ChatGPT的；</li>
+<li>当前使用的代理IP被ChatGPT封了：ChatGPT会封禁一些万人骑的IP，尤其是IDC厂商的IP段，封了后也可能报这个错误。</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/access-denied/">访问ChatGPT报错Access deinied访问被拒绝应该怎么办？</a></p>
+<h2 id="Sorry-you-have-been-blocked（抱歉，您已被屏蔽）"><a href="#Sorry-you-have-been-blocked（抱歉，您已被屏蔽）" class="headerlink" title="Sorry, you have been blocked（抱歉，您已被屏蔽）"></a>Sorry, you have been blocked（抱歉，您已被屏蔽）</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-sorry-you-have-been-blocked.png" alt="ChatGPT被屏蔽了" title="ChatGPT被屏蔽了"></p>
+<p>之前的Access deinied（访问被拒绝）现在基本被Sorry, you have been blocked（抱歉，您已被屏蔽）替代了，原因是：</p>
+<ol>
+<li>节点被ChatGPT封了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/sorry-you-have-been-blocked/?highlight=sorry">访问ChatGPT报错Sorry, you have been blocked（抱歉，您已被屏蔽）应该怎么办？</a></p>
+<p>后来这个提示还多了一个If you are using a VPN, try turning it off.（如果您正在使用VPN，请尝试将其关闭。）的提示，如下图，其实原因和解决方法是一样的：</p>
+<p><img src="https://chatgptzh.github.io/images/ChatGPT-if-you-are-using-a-vpn-try-turning-if-off.jpg" alt="ChatGPT被屏蔽了" title="ChatGPT被屏蔽了"></p>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/if-you-are-using-a-vpn-try-turning-it-off/">不能用VPN访问ChatGPT了？访问ChatGPT提示”如果您正在使用VPN，请尝试将其关闭”怎么办</a></p>
+<h2 id="Unable-to-load-site（无法加载网站）"><a href="#Unable-to-load-site（无法加载网站）" class="headerlink" title="Unable to load site（无法加载网站）"></a>Unable to load site（无法加载网站）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-unable-to-load-site.jpg" alt="ChatGPT Unable to load site" title="ChatGPT Unable to load site"></p>
+<p>网页直接打不开，但其实跟Sorry, you have been blocked（抱歉，您已被屏蔽）是一个错误，问题原因：</p>
+<ol>
+<li>节点被ChatGPT封了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换工具</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/unable-to-load-site/">ChatGPT Unable to load site（无法加载网站）怎么办？</a></p>
+<h2 id="Unable-to-load-history（无法加载历史记录）"><a href="#Unable-to-load-history（无法加载历史记录）" class="headerlink" title="Unable to load history（无法加载历史记录）"></a>Unable to load history（无法加载历史记录）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-unable-to-load-history.png" alt="ChatGPT unable to load history"></p>
+<p>这是登录成功了，但是加载不了网站，不显示账号信息，也无法问ChatGPT问题，左侧提示Unable to load history（无法加载历史记录），问题原因可能是：</p>
+<ol>
+<li>节点网络不行</li>
+<li>OpenAI服务器崩了（概率比较小，只有新功能发布，很多人同时用新功能才有可能）</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>等会再试</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/unable-to-load-history/">ChatGPT Unable to load history（无法加载历史记录），不显示账号信息怎么办？</a></p>
+<h2 id="点击Continue没反应"><a href="#点击Continue没反应" class="headerlink" title="点击Continue没反应"></a>点击Continue没反应</h2><p>输完账号密码，点击Continue后等了很久也没反应，问题原因：</p>
+<ol>
+<li>网络问题</li>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>可以尝试多按几次Continue</li>
+<li>换节点尝试</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/continue-no-response/">ChatGPT登录不上，点击Continue没反应是什么问题？</a></p>
+<h2 id="点击Continue退回首页"><a href="#点击Continue退回首页" class="headerlink" title="点击Continue退回首页"></a>点击Continue退回首页</h2><p>输完账号密码，点击Continue后又返回到了首页，问题原因：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+</ol>
+<p>这个问题之前分享过：<a href="https://chatgptzh.github.io/continue-back-to-homepage/">ChatGPT点击Continue登录后又跳回首页没登录成功是账号被封了吗</a></p>
+<h2 id="429-You-are-being-rate-limited"><a href="#429-You-are-being-rate-limited" class="headerlink" title="429 You are being rate limited"></a>429 You are being rate limited</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-429.png" alt="ChatGPT 429 You are being rate limited"></p>
+<p>在http网络请求中，429错误一般都是Too Many Requests，即在一定的时间内用户发送了太多的请求，超出了频次限制，所以ChatGPT 429的原因是：</p>
+<ol>
+<li>用你这个节点的人太多，在段时间内大量访问了OpenAI&#x2F;ChatGPT服务，被限制了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>等一会再试</li>
+<li>换节点</li>
+</ol>
+<h2 id="experiencing-exceptionally-high-demand（正在经历异常高的需求）"><a href="#experiencing-exceptionally-high-demand（正在经历异常高的需求）" class="headerlink" title="experiencing exceptionally high demand（正在经历异常高的需求）"></a>experiencing exceptionally high demand（正在经历异常高的需求）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-experiencing-exceptionally-high-demand.jpg" alt="ChatGPT experiencing exceptionally high demand"></p>
+<p>问题原因：</p>
+<ol>
+<li>OpenAI服务器过载</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>等一段时间再试</li>
+</ol>
+<h2 id="failed-to-obtain-your-user-account（无法获取您的用户帐户）"><a href="#failed-to-obtain-your-user-account（无法获取您的用户帐户）" class="headerlink" title="failed to obtain your user account（无法获取您的用户帐户）"></a>failed to obtain your user account（无法获取您的用户帐户）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-failed-to-obtain-your-user-account.jpg" alt="ChatGPT failed to obtain your user account"></p>
+<p>问题原因：</p>
+<ol>
+<li>OpenAI临时bug</li>
+<li>网络问题</li>
+</ol>
+<p>解决方法</p>
+<ol>
+<li>等一会再试</li>
+<li>换一个节点</li>
+</ol>
+<h2 id="make-sure-your-device’s-date-and-time-are-set-properly"><a href="#make-sure-your-device’s-date-and-time-are-set-properly" class="headerlink" title="make sure your device’s date and time are set properly"></a>make sure your device’s date and time are set properly</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-date-and-time-are-set-properly.jpg" alt="make sure your device’s date and time are set properly"></p>
+<p>这个问题出现在ChatGPT客户端，完整提示：Something went wrong. Please make sure your device’s date and time are set properly. Check that your internet connection is stable, then restart the app and try again.（出了些问题。 请确保您设备的日期和时间设置正确。 检查您的互联网连接是否稳定，然后重新启动应用程序并重试），看提示似乎是手机日期或者时间的问题，但其实并不是，你更改了时间后又会遇到其他问题（并且没有必要换时间），问题原因：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<h2 id="connected-to-a-disallowed-ISP"><a href="#connected-to-a-disallowed-ISP" class="headerlink" title="connected to a disallowed ISP"></a>connected to a disallowed ISP</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-disallowed-isp.jpg" alt="connected to a disallowed ISP"></p>
+<p>这个问题出现在ChatGPT客户端，完整提示：Something went wrong. You may be connected to a disallowed ISP If you are using VPN, try disabling it. Otherwise try a different Wi-Fi networkor data connection.（出了些问题。 您可能连接到了不允许的 ISP 如果您正在使用 VPN，请尝试禁用它。 否则尝试不同的 Wi-Fi 网络或数据连接），问题原因：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<h2 id="Sign-in-failed，An-error-occurred-during-fetching-values-for-the-user-403"><a href="#Sign-in-failed，An-error-occurred-during-fetching-values-for-the-user-403" class="headerlink" title="Sign in failed，An error occurred during fetching values for the user. 403"></a>Sign in failed，An error occurred during fetching values for the user. 403</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-sign-in-failed-403.png" alt="chatgpt-sign-in-failed-403"></p>
+<p>这个问题出现在ChatGPT客户端，是最近刚出现的，403网络状态码的意思就是访问被拒，所以问题原因是：</p>
+<ol>
+<li>节点问题</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<h2 id="Too-many-requests-in-1-hour（1小时内请求过多）"><a href="#Too-many-requests-in-1-hour（1小时内请求过多）" class="headerlink" title="Too many requests in 1 hour（1小时内请求过多）"></a>Too many requests in 1 hour（1小时内请求过多）</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-too-many-requests-in-1-hour-try-anain-later.jpg" alt="Too many requests in 1 hour"></p>
+<p>提问ChatGPT时报错Too many requests in 1 hour. Try again later（1小时内请求过多。 稍后再试），过一段时间再试还是这个错误，问题原因：</p>
+<ol>
+<li>节点问题：同一时间用你这个节点的人访问ChatGPT的人太多了；</li>
+<li>账号问题：这个概率很小，除非你这个账号共享的人太多了。</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>换独享账号：<a href="https://chatgptzh.github.io/account-buy/"># OpenAI ChatGPT账号购买，直接购买ChatGPT成品号，开箱即用，人工注册有保障</a></li>
+</ol>
+<h2 id="We-have-detected-suspicious-login-behavior（我们检测到可疑的登录行为，将阻止进一步的尝试）"><a href="#We-have-detected-suspicious-login-behavior（我们检测到可疑的登录行为，将阻止进一步的尝试）" class="headerlink" title="We have detected suspicious login behavior（我们检测到可疑的登录行为，将阻止进一步的尝试）"></a>We have detected suspicious login behavior（我们检测到可疑的登录行为，将阻止进一步的尝试）</h2><p>英文提示：We have detected suspicious login behavior and further attempts will be blocked. Please contact the administrator</p>
+<p><img src="https://chatgptzh.github.io/images/chatgpt-we-have-detected-suspicous-login-behavior.jpg" alt="We have detected suspicious login behavior"></p>
+<p>中文提示：我们检测到可疑的登录行为，将阻止进一步的尝试。请与管理员联系</p>
+<p><img src="https://chatgptzh.github.io/images/chatgpt-we-have-detected-suspicous-login-behavior-cn.jpg" alt="我们检测到可疑的登录行为"></p>
+<p>很多人看到这个提示以为是ChatGPT账号的问题，例如密码错误，或者是共享账号用的人太多了，但其实这个问题跟ChatGPT账号没关系，而是节点IP被限制了，问题原因：</p>
+<ol>
+<li>节点被OpenAI风控了（尤其是客户端登录，对节点要求更高）</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>在浏览器试试（浏览器对IP要求低）</li>
+<li>换节点</li>
+</ol>
+<h2 id="Failed-to-load-reguired-information（无法加载所需信息）"><a href="#Failed-to-load-reguired-information（无法加载所需信息）" class="headerlink" title="Failed to load reguired information（无法加载所需信息）"></a>Failed to load reguired information（无法加载所需信息）</h2><p><img src="https://chatgptzh.github.io/images/chatgpt-failed-to-load-required-information.jpg" alt="Failed to load reguired information"></p>
+<p>这个问题一般出现在注册ChatGPT账号时，Failed to load required information. Please check your internet connection and retry.（无法加载所需信息。 请检查您的互联网连接并重试。），问题原因：</p>
+<ol>
+<li>节点被OpenAI风控了</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>换节点</li>
+<li>买ChatGPT成品号：<a href="https://chatgptzh.github.io/account-buy/">OpenAI ChatGPT账号购买，直接购买ChatGPT成品号，开箱即用，人工注册有保障</a></li>
+</ol>
+<h2 id="ChatGPT回复只有断断续续几个字"><a href="#ChatGPT回复只有断断续续几个字" class="headerlink" title="ChatGPT回复只有断断续续几个字"></a>ChatGPT回复只有断断续续几个字</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-response-uncompleted.jpg" alt="ChatGPT回复只有断断续续几个字"></p>
+<p>正常提问ChatGPT，但是ChatGPT的回复只有断断续续的几个字，问题原因：</p>
+<ol>
+<li>浏览器开了翻译插件（如谷歌翻译）</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>关闭浏览器插件</li>
+</ol>
+<h2 id="Unable-to-load-conversation（无法加载对话）"><a href="#Unable-to-load-conversation（无法加载对话）" class="headerlink" title="Unable to load conversation（无法加载对话）"></a>Unable to load conversation（无法加载对话）</h2><p><img src="https://chatgptzh.github.io/images/ChatGPT-unable-to-load-conversation.png" alt="Unable to load conversation"></p>
+<p>不管是新建对话还是加载之前的对话，都提示Unable to load conversation（无法加载对话），问题原因：</p>
+<ol>
+<li>OpenAI服务器过载，无法处理这么多请求</li>
+<li>客户端网络环境不过关（如节点、浏览器等）</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>如果是高峰期时段（如新产品发布），过一段时间再试</li>
+<li>换IP，换浏览器，换无痕模式，清空浏览器缓存</li>
+</ol>
+<h2 id="给ChatGPT发消息没有反应"><a href="#给ChatGPT发消息没有反应" class="headerlink" title="给ChatGPT发消息没有反应"></a>给ChatGPT发消息没有反应</h2><p>这是最近出现的问题：情况1：可以正常登录ChatGPT，也可以正常输入问题，但是按回车&#x2F;发送键无法给ChatGPT发消息；情况2：可以给ChatGPT发消息，但是发什么消息都没有反应，ChatGPT没有任何反馈。</p>
+<p>问题原因：</p>
+<ol>
+<li>2024年3月8日OpenAI更新了ChatGPT的安全策略，导致浏览器本地缓存有了冲突。</li>
+</ol>
+<p>解决方法：</p>
+<ol>
+<li>清空浏览器缓存</li>
+<li>换一个浏览器</li>
+<li>换用无痕模式</li>
+</ol>
+<p>本页面会长期更新国内使用ChatGPT时遇到的各种问题，欢迎收藏。如果没有你遇到的问题的话，可以加入<a href="https://chatgptzh.github.io/groups/">ChatGPT交流群</a>问问大家。</p>
+
+    </div>
+
+    
+    
+    
+    <footer class="post-footer">
+<p style="text-align: center;"><strong>「ChatGPT研修班」知识星球</strong>上线啦，早鸟价年付249元！</p>
+<p style="text-align: center;"><span style="color: #ff0000;">上百篇教程</span>，带你<strong>从0到1玩赚ChatGPT</strong>，<a target="_blank" rel="nofollow" href="https://chatgptzh.github.io/zsxq/"">点击了解详情</a></p>
+<p><img decoding="async" class="alignnone size-medium" src="https://laowangblog.com/zsxq.jpg" alt="ChatGPT知识星球" width="466" height="556"></p>
+          <div class="post-tags">
+              <a href="/tags/ChatGPT/" rel="tag"># ChatGPT</a>
+              <a href="/tags/ChatGPT%E6%89%93%E4%B8%8D%E5%BC%80%E8%AE%BF%E9%97%AE%E4%B8%8D%E4%BA%86/" rel="tag"># ChatGPT打不开访问不了</a>
+              <a href="/tags/ChatGPT-Access-denied/" rel="tag"># ChatGPT Access denied</a>
+              <a href="/tags/ChatGPT%E8%AE%BF%E9%97%AE%E8%A2%AB%E6%8B%92%E7%BB%9D/" rel="tag"># ChatGPT访问被拒绝</a>
+              <a href="/tags/ChatGPT%E7%99%BB%E4%B8%8D%E4%B8%8A/" rel="tag"># ChatGPT登不上</a>
+              <a href="/tags/ChatGPT%E8%BF%9E%E4%B8%8D%E4%B8%8A/" rel="tag"># ChatGPT连不上</a>
+              <a href="/tags/ChatGPT%E5%B0%81%E5%8F%B7/" rel="tag"># ChatGPT封号</a>
+              <a href="/tags/ChatGPT%E7%94%A8%E4%B8%8D%E4%BA%86/" rel="tag"># ChatGPT用不了</a>
+              <a href="/tags/ChatGPT%E6%B2%A1%E5%8F%8D%E5%BA%94/" rel="tag"># ChatGPT没反应</a>
+              <a href="/tags/ChatGPT-Sorry-you-have-been-blocked/" rel="tag"># ChatGPT Sorry you have been blocked</a>
+              <a href="/tags/ChatGPT%E6%8A%B1%E6%AD%89%E6%82%A8%E5%B7%B2%E8%A2%AB%E5%B1%8F%E8%94%BD/" rel="tag"># ChatGPT抱歉您已被屏蔽</a>
+              <a href="/tags/ChatGPT-VPN/" rel="tag"># ChatGPT VPN</a>
+              <a href="/tags/ChatGPT%E6%89%93%E4%B8%8D%E5%BC%80/" rel="tag"># ChatGPT打不开</a>
+              <a href="/tags/ChatGPT%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%94%A8%E4%B8%8D%E4%BA%86/" rel="tag"># ChatGPT客户端用不了</a>
+              <a href="/tags/ChatGPT-This-site-can-t-be-reached/" rel="tag"># ChatGPT This site can't be reached</a>
+              <a href="/tags/ChatGPT%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E6%AD%A4%E7%BD%91%E7%AB%99/" rel="tag"># ChatGPT无法访问此网站</a>
+              <a href="/tags/ChatGPT%E6%84%8F%E5%A4%96%E7%BB%88%E6%AD%A2%E4%BA%86%E8%BF%9E%E6%8E%A5/" rel="tag"># ChatGPT意外终止了连接</a>
+              <a href="/tags/ChatGPT-Unable-to-load-site/" rel="tag"># ChatGPT Unable to load site</a>
+              <a href="/tags/ChatGPT%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E7%BD%91%E7%AB%99/" rel="tag"># ChatGPT无法加载网站</a>
+              <a href="/tags/ChatGPT-Unable-to-load-history/" rel="tag"># ChatGPT Unable to load history</a>
+              <a href="/tags/ChatGPT-429-You-are-being-rate-limited/" rel="tag"># ChatGPT 429 You are being rate limited</a>
+              <a href="/tags/ChatGPT-experiencing-exceptionally-high-demand/" rel="tag"># ChatGPT experiencing exceptionally high demand</a>
+              <a href="/tags/ChatGPT%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%B5%84%E6%BA%90%E8%BF%87%E8%BD%BD/" rel="tag"># ChatGPT服务器资源过载</a>
+              <a href="/tags/ChatGPT-failed-to-obtain-your-user-account/" rel="tag"># ChatGPT failed to obtain your user account</a>
+              <a href="/tags/ChatGPT-connected-to-a-disallowed-ISP/" rel="tag"># ChatGPT connected to a disallowed ISP</a>
+              <a href="/tags/ChatGPT-Sign-in-failed-An-error-occurred-during-fetching-values-for-the-user-403/" rel="tag"># ChatGPT Sign in failed An error occurred during fetching values for the user 403</a>
+              <a href="/tags/ChatGPT-Too-many-requests-in-1-hour/" rel="tag"># ChatGPT Too many requests in 1 hour</a>
+              <a href="/tags/ChatGPT-1%E5%B0%8F%E6%97%B6%E5%86%85%E8%AF%B7%E6%B1%82%E8%BF%87%E5%A4%9A/" rel="tag"># ChatGPT 1小时内请求过多</a>
+              <a href="/tags/ChatGPT-We-have-detected-suspicious-login/" rel="tag"># ChatGPT We have detected suspicious login</a>
+              <a href="/tags/ChatGPT-%E6%88%91%E4%BB%AC%E6%A3%80%E6%B5%8B%E5%88%B0%E5%8F%AF%E7%96%91%E7%9A%84%E7%99%BB%E5%BD%95%E8%A1%8C%E4%B8%BA/" rel="tag"># ChatGPT 我们检测到可疑的登录行为</a>
+              <a href="/tags/ChatGPT-Failed-to-load-reguired-information/" rel="tag"># ChatGPT Failed to load reguired information</a>
+              <a href="/tags/ChatGPT%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E6%89%80%E9%9C%80%E4%BF%A1%E6%81%AF/" rel="tag"># ChatGPT无法加载所需信息</a>
+              <a href="/tags/ChatGPT-Unable-to-load-conversation/" rel="tag"># ChatGPT Unable to load conversation</a>
+              <a href="/tags/ChatGPT%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E5%AF%B9%E8%AF%9D/" rel="tag"># ChatGPT无法加载对话</a>
+              <a href="/tags/%E7%BB%99ChatGPT%E5%8F%91%E6%B6%88%E6%81%AF%E6%B2%A1%E6%9C%89%E5%8F%8D%E5%BA%94/" rel="tag"># 给ChatGPT发消息没有反应</a>
+              <a href="/tags/%E6%97%A0%E6%B3%95%E7%BB%99ChatGPT%E5%8F%91%E6%B6%88%E6%81%AF/" rel="tag"># 无法给ChatGPT发消息</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/continue-back-to-homepage/" rel="prev" title="ChatGPT点击Continue登录后又跳回首页没登录成功是账号被封了吗">
+                  <i class="fa fa-chevron-left"></i> ChatGPT点击Continue登录后又跳回首页没登录成功是账号被封了吗
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ChatGPT</span>
+</div>
+  <div class="powered-by">由 <a href="https://chatgptzh.github.io/">ChatGPT中文网</a> & <a href="https://chatgptboke.com/" rel="noopener" target="_blank">ChatGPT博客</a> 强力驱动 | <a href="https://chatgptzh.github.io/sitemap.xml" rel="noopener nofollow" target="_blank">sitemap</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/comments.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/utils.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/motion.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/next-boot.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.1/dist/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/third-party/search/local-search.min.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
