@@ -113,6 +113,8 @@ https://chatgptzh.github.io/tags/ChatGPT-We-ran-into-an-issue-while-signing-you-
 https://chatgptzh.github.io/tags/ChatGPT%E6%88%91%E4%BB%AC%E5%9C%A8%E6%82%A8%E7%99%BB%E5%BD%95%E6%97%B6%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98/
 https://chatgptzh.github.io/tags/ChatGPT-network-error/
 https://chatgptzh.github.io/tags/ChatGPT%E7%BD%91%E7%BB%9C%E9%94%99%E8%AF%AF/
+https://chatgptzh.github.io/tags/ChatGPT-Verifying-you-are-human/
+https://chatgptzh.github.io/tags/ChatGPT%E9%AA%8C%E8%AF%81%E4%BD%A0%E6%98%AF%E4%BA%BA%E7%B1%BB/
 https://chatgptzh.github.io/tags/GPT/
 https://chatgptzh.github.io/tags/GPT-3-5/
 https://chatgptzh.github.io/tags/GPT-4/
