@@ -1,3 +1,4 @@
+https://chatgptzh.github.io/openai-api-and-chatgpt-accounts-deleted-or-deactivated/
 https://chatgptzh.github.io/chatgpt-plus/
 https://chatgptzh.github.io/api-key/
 https://chatgptzh.github.io/how-to-register-a-chatgpt-account-in-china/
@@ -130,6 +131,11 @@ https://chatgptzh.github.io/tags/OpenAI-API/
 https://chatgptzh.github.io/tags/OpenAI-API%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6/
 https://chatgptzh.github.io/tags/OpenAI-API%E5%85%8D%E8%B4%B95%E7%BE%8E%E5%85%83/
 https://chatgptzh.github.io/tags/OpenAI-No-credit-grants-found/
+https://chatgptzh.github.io/tags/OpenAI%E5%B0%81%E5%8F%B7/
+https://chatgptzh.github.io/tags/OpenAI-API%E8%A2%AB%E5%B0%81%E4%BA%86/
+https://chatgptzh.github.io/tags/ChatGPT%E8%A2%AB%E5%B0%81%E4%BA%86/
+https://chatgptzh.github.io/tags/The-OpenAI-account-associated-with-this-API-key-has-been-deactivated/
+https://chatgptzh.github.io/tags/You-do-not-have-an-account-because-it-has-been-deleted-or-deactivated/
 https://chatgptzh.github.io/tags/OpenAI-ChatGPT-API%E4%BD%99%E9%A2%9D/
 https://chatgptzh.github.io/tags/ChatGPT-Sign-in-failed-403/
 https://chatgptzh.github.io/tags/ChatGPT%E9%82%AE%E7%AE%B1/
