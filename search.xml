@@ -39,7 +39,7 @@
 <h2 id="ChatGPT账号购买方法"><a href="#ChatGPT账号购买方法" class="headerlink" title="ChatGPT账号购买方法"></a>ChatGPT账号购买方法</h2><p>下单地址：<a href="https://gpt.ycestore.com/buy/1">ChatGPT 成品号｜美国本地手工注册的 ChatGPT 账号｜一人一号不共享｜永久免费使用</a></p>
 <p>所有ChatGPT账号都是自动发货的，只要有库存，<strong>下单购买后就会直接将ChatGPT账号密码信息发送到你的邮箱</strong>，注意点包括：</p>
 <ol>
-<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#99;&#x68;&#97;&#x74;&#103;&#x70;&#116;&#x61;&#99;&#99;&#111;&#117;&#110;&#x74;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#45;&#x2d;&#45;&#x2d;&#x43;&#104;&#x61;&#116;&#71;&#x50;&#x54;&#x50;&#x61;&#x73;&#115;&#119;&#x6f;&#x72;&#x64;&#45;&#45;&#45;&#x2d;&#71;&#x6d;&#97;&#105;&#108;&#80;&#97;&#x73;&#115;&#x77;&#111;&#114;&#x64;&#x2d;&#45;&#45;&#x2d;&#103;&#109;&#97;&#105;&#x6c;&#114;&#x65;&#x63;&#111;&#118;&#x65;&#114;&#121;">&#99;&#x68;&#97;&#x74;&#103;&#x70;&#116;&#x61;&#99;&#99;&#111;&#117;&#110;&#x74;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;&#45;&#x2d;&#45;&#x2d;&#x43;&#104;&#x61;&#116;&#71;&#x50;&#x54;&#x50;&#x61;&#x73;&#115;&#119;&#x6f;&#x72;&#x64;&#45;&#45;&#45;&#x2d;&#71;&#x6d;&#97;&#105;&#108;&#80;&#97;&#x73;&#115;&#x77;&#111;&#114;&#x64;&#x2d;&#45;&#45;&#x2d;&#103;&#109;&#97;&#105;&#x6c;&#114;&#x65;&#x63;&#111;&#118;&#x65;&#114;&#121;</a>@gmail.com）；</li>
+<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#x63;&#104;&#x61;&#x74;&#103;&#112;&#116;&#x61;&#99;&#99;&#111;&#117;&#x6e;&#x74;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;&#x2d;&#x2d;&#45;&#x2d;&#67;&#104;&#97;&#x74;&#x47;&#x50;&#84;&#80;&#x61;&#115;&#115;&#x77;&#111;&#x72;&#100;&#45;&#x2d;&#45;&#x2d;&#x47;&#x6d;&#x61;&#x69;&#x6c;&#80;&#x61;&#115;&#115;&#119;&#111;&#114;&#100;&#x2d;&#x2d;&#45;&#45;&#x67;&#109;&#x61;&#x69;&#108;&#x72;&#101;&#99;&#x6f;&#x76;&#x65;&#x72;&#x79;">&#x63;&#104;&#x61;&#x74;&#103;&#112;&#116;&#x61;&#99;&#99;&#111;&#117;&#x6e;&#x74;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;&#x2d;&#x2d;&#45;&#x2d;&#67;&#104;&#97;&#x74;&#x47;&#x50;&#84;&#80;&#x61;&#115;&#115;&#x77;&#111;&#x72;&#100;&#45;&#x2d;&#45;&#x2d;&#x47;&#x6d;&#x61;&#x69;&#x6c;&#80;&#x61;&#115;&#115;&#119;&#111;&#114;&#100;&#x2d;&#x2d;&#45;&#45;&#x67;&#109;&#x61;&#x69;&#108;&#x72;&#101;&#99;&#x6f;&#x76;&#x65;&#x72;&#x79;</a>@gmail.com）；</li>
 <li><strong>登录方式</strong> ：<a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a>（直接输入 ChatGPT 账号和 ChatGPT 密码登录，不要选择 Continue with Google， <strong>两种登录方式不通用</strong> ）</li>
 <li>最好用美国 IP 登录，因为这个号也是用美国家宽&#x2F;学校网络手工注册的；</li>
 <li>不要使用同一个 IP 登录多个账号，也不要频繁更换 IP；</li>
@@ -1086,6 +1086,59 @@
         <tag>OpenAI ChatGPT API充值</tag>
         <tag>OpenAI API信用卡</tag>
         <tag>OpenAI ChatGPT API余额</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OpenAI API账号又被封了？国内如何安全使用OpenAI API防止被封？</title>
+    <url>/proxy-api/</url>
+    <content><![CDATA[<p>今年以来，OpenAI已经大规模封了好几波API账号，尤其是国内使用虚拟信用卡充值的用户，整个卡段的封号，并且号封了还不退钱。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下国内如何使用OpenAI API key而不被封号。</p>
+<h2 id="OpenAI-API账号被封"><a href="#OpenAI-API账号被封" class="headerlink" title="OpenAI API账号被封"></a>OpenAI API账号被封</h2><p>OpenAI今年以来已经大规模封号好几波了，尤其是API用户，国内很多API用户都遭到了封号，并且API账号被封后，<strong>预充值的钱是不会退给你的</strong>。</p>
+<p>为什么OpenAI API账号很容易被封呢？有两个原因：</p>
+<p><strong>原因1：在不允许的地方调用了API</strong></p>
+<p>调用API比使用ChatGPT对IP的要求要严格得多，如果在香港地区调用了API，很有可能就会以unsupported location的理由封号。</p>
+<p><strong>原因2：虚拟卡支付</strong></p>
+<p>因为OpenAI API只能用国外信用卡支付，国内用户很难申请到国外实体信用卡，所以都把目光转向了虚拟信用卡，例如Dupay、WildCard、NobePay、FormPay、OneKey Card等等，在网络上一搜”信用卡支付OpenAI API”全是这些信用卡的推荐，大部分是为了拿推荐佣金。<strong>国内的朋友都用这些信用卡，能不容易封吗</strong>？</p>
+<p>另外还有一个问题就是，因为这些虚拟信用卡的申请难度相对来说简单很多，所以很多人会用这些信用卡去做坏事，例如故意欠了OpenAI很大一笔账单但是不支付，直接销卡，这就很容易导致OpenAI直接拉黑整个卡段，<strong>所有使用过这个卡段信用卡充值的OpenAI账号全被封号</strong>。</p>
+<p><span style="color:red; font-weight:bold;">总的来说，使用门槛太低的虚拟信用卡支付OpenAI API，基本就是等着封号</span>。</p>
+<p>在网上随便搜一下”OpenAI封号”你就可以找到很多案例，甚至这种使用美国本地实体信用卡的国内用户都被封号了：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-3.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>2024年5月份，OpenAI就大规模封了2次账号，5月6日，无差别封号：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-2.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>5月30日（也就是昨天），又是大规模封号，这位用户已经很小心的使用了，还是遭到了封号：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-1.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>回复帖子里也有很多朋友有类似的封号情况，虚拟卡很容易被人牵连、当地实体卡也被封了：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-1-1.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>OpenAI ChatGPT API地址：<a href="https://platform.openai.com/">https://platform.openai.com</a></p>
+<h2 id="国内如何安全使用OpenAI-API（防止被封）"><a href="#国内如何安全使用OpenAI-API（防止被封）" class="headerlink" title="国内如何安全使用OpenAI API（防止被封）"></a>国内如何安全使用OpenAI API（防止被封）</h2><p>那在国内使用OpenAI API key有没有安全的方法呢？怎样才能防止账号被封呢？</p>
+<p>首先，最好是找一个当地的实体信用卡，这种申请门槛高，不太会被牵连，实在不行也找一些小众的虚拟信用卡，不能是网上一搜成片教程的，或者是直接淘宝买的，那种太容易受牵连被封号了；其次，保证IP干净，最好是美国家宽的IP，不要频繁切换。</p>
+<p>相比于自行充值，其实有一个更好的解决方案，<span style="color:red; font-weight:bold;">100%不会封号</span>，那就是选择<span style="color:red; font-weight:bold;">中转API</span>。</p>
+<p>中转API相当于在<span
+style="color:red; font-weight:bold;">调用者和官方服务器之间搭建了一个中转服务器</span>，调用者实际用的还是<span
+style="color:red; font-weight:bold;">官方的API服务</span>，大家可以看下这个图关于中转API的解释：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-proxy-api.png.jpg" alt="国内如何安全使用OpenAI API（防止被封）" title="国内如何安全使用OpenAI API（防止被封）"></p>
+<p>如果使用中转API，那么就<span
+style="color:red; font-weight:bold;">由中转平台考虑封号的问题，并且中转API是可以直接在国内连接的</span>，很多人为了使用OpenAI API还特地去买了一个代理，使用中转API还可以省下这笔钱，并且，这些中转平台因为大批量采购（有独特的渠道），还可以做到API的<span
+style="color:red; font-weight:bold;">价格比官网价格更低</span>！</p>
+<p><a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>给大家推荐一家靠谱稳定的中转API平台：</p>
+<ul>
+<li>便携AI聚合API地址：<a href="https://api.bianxieai.com/">便携AI聚合API - 接入了超百种AI大语言模型 | 支持OpenAI全模型 | 国内直连 | 余额永久有效</a></li>
+</ul>
+<p>便携AI聚合API支持各种使用OpenAI接口的应用，只要你使用的平台有自定义链接地址的地方，都可以用，包括但不限于ChatGPT Next Web、GPT学术优化gpt_academic、OpenAI Translator、Bob翻译、Pot翻译、沉浸式翻译、代码调用（各种编程语言如Python&#x2F;PHP&#x2F;Java&#x2F;Go、POST&#x2F;GET请求等） 、LangChain、AutoGPT、Lobe-Chat、ChatX、ChallAll、ChatHub、LibreChat、Dify.AI、CodeGPT、OpenCat、Chatbox等。</p>
+<p>如果你想在国内使用OpenAI API，又苦于账号一致被封，那么确实可以考虑中转API，便宜好用，还不封号，合不合适看了再做决定：<a href="https://api.bianxieai.com/">https://api.bianxieai.com</a>。</p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>OpenAI ChatGPT API</tag>
+        <tag>API Key</tag>
+        <tag>OpenAI ChatGPT API购买</tag>
+        <tag>OpenAI ChatGPT API充值</tag>
+        <tag>ChatGPT封号</tag>
+        <tag>OpenAI封号</tag>
+        <tag>OpenAI API被封了</tag>
+        <tag>ChatGPT被封了</tag>
       </tags>
   </entry>
   <entry>

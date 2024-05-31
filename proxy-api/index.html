@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3EsDGRw6S6g8wG7t",ck:"3EsDGRw6S6g8wG7t"})</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/avatar.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/avatar.png" color="#222">
+  <meta name="google-site-verification" content="I0AdiK9ghFbhDtTfcIea3jMWVbELLTjqS9UbQTSKrgE">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"chatgptzh.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/config.min.js"></script>
+
+    <meta name="description" content="今年以来，OpenAI已经大规模封了好几波API账号，尤其是国内使用虚拟信用卡充值的用户，整个卡段的封号，并且号封了还不退钱。今天ChatGPT中文网就分享下国内如何使用OpenAI API key而不被封号。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenAI API账号又被封了？国内如何安全使用OpenAI API防止被封？">
+<meta property="og:url" content="https://chatgptzh.github.io/proxy-api/index.html">
+<meta property="og:site_name" content="ChatGPT中文网">
+<meta property="og:description" content="今年以来，OpenAI已经大规模封了好几波API账号，尤其是国内使用虚拟信用卡充值的用户，整个卡段的封号，并且号封了还不退钱。今天ChatGPT中文网就分享下国内如何使用OpenAI API key而不被封号。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://chatgptzh.github.io/images/openai-api-fenghao-3.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/openai-api-fenghao-2.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/openai-api-fenghao-1.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/openai-api-fenghao-1-1.jpg">
+<meta property="og:image" content="https://chatgptzh.github.io/images/openai-proxy-api.png.jpg">
+<meta property="article:published_time" content="2024-05-31T09:11:01.000Z">
+<meta property="article:modified_time" content="2024-05-31T10:22:01.634Z">
+<meta property="article:author" content="ChatGPT">
+<meta property="article:tag" content="ChatGPT">
+<meta property="article:tag" content="OpenAI ChatGPT API">
+<meta property="article:tag" content="API Key">
+<meta property="article:tag" content="OpenAI ChatGPT API购买">
+<meta property="article:tag" content="OpenAI ChatGPT API充值">
+<meta property="article:tag" content="ChatGPT封号">
+<meta property="article:tag" content="OpenAI封号">
+<meta property="article:tag" content="OpenAI API被封了">
+<meta property="article:tag" content="ChatGPT被封了">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chatgptzh.github.io/images/openai-api-fenghao-3.jpg">
+
+
+<link rel="canonical" href="https://chatgptzh.github.io/proxy-api/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://chatgptzh.github.io/proxy-api/","path":"proxy-api/","title":"OpenAI API账号又被封了？国内如何安全使用OpenAI API防止被封？"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>OpenAI API账号又被封了？国内如何安全使用OpenAI API防止被封？ | ChatGPT中文网</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">ChatGPT中文网</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">分享ChatGPT资讯和ChatGPT教程</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-chatgpt账号购买"><a href="https://chatgptzh.github.io/account-buy/" rel="section"><i class="fa fa-cart-shopping fa-fw"></i>ChatGPT账号购买</a></li><li class="menu-item menu-item-plus代升级"><a href="https://chatgptzh.github.io/chatgpt-plus/" rel="section"><i class="fa fa-shopping-cart fa-fw"></i>Plus代升级</a></li><li class="menu-item menu-item-api-key购买"><a href="https://chatgptzh.github.io/api-key/" rel="section"><i class="fa fa-shopping-cart fa-fw"></i>API key购买</a></li><li class="menu-item menu-item-chatgpt知识星球"><a href="https://chatgptzh.github.io/zsxq/" rel="section"><i class="fa fa-book fa-fw"></i>ChatGPT知识星球</a></li><li class="menu-item menu-item-交流群"><a href="https://chatgptzh.github.io/groups/" rel="section"><i class="fa fa-user fa-fw"></i>交流群</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div style="margin-top: 12px">
+	<a href="https://api.bianxieai.com" target="_blank">
+		<img src="https://chatgptboke.com/wp-content/uploads/2024/05/bianxieai-ad-360.png" alt="ad" width="360" height="260" style="height: auto;margin-bottom: 3px">
+	</a>
+        <a href="https://chatgptboke.com/zsxq.html" target="_blank">
+                <img src="https://laowangblog.com/chatgpt-zsxq-ad.png" alt="ad" width="360" height="260" style="height: auto">
+        </a>
+    </div>
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#OpenAI-API%E8%B4%A6%E5%8F%B7%E8%A2%AB%E5%B0%81"><span class="nav-number">1.</span> <span class="nav-text">OpenAI API账号被封</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BD%E5%86%85%E5%A6%82%E4%BD%95%E5%AE%89%E5%85%A8%E4%BD%BF%E7%94%A8OpenAI-API%EF%BC%88%E9%98%B2%E6%AD%A2%E8%A2%AB%E5%B0%81%EF%BC%89"><span class="nav-number">2.</span> <span class="nav-text">国内如何安全使用OpenAI API（防止被封）</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ChatGPT"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">ChatGPT</p>
+  <div class="site-description" itemprop="description">ChatGPT中文网，分享ChatGPT中文教程，包括ChatGPT账号注册申请、ChatGPT IP解锁、ChatGPT Plus升级、ChatGPT使用等教程。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">115</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://chatgptzh.github.io/proxy-api/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="ChatGPT">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ChatGPT中文网">
+      <meta itemprop="description" content="ChatGPT中文网，分享ChatGPT中文教程，包括ChatGPT账号注册申请、ChatGPT IP解锁、ChatGPT Plus升级、ChatGPT使用等教程。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="OpenAI API账号又被封了？国内如何安全使用OpenAI API防止被封？ | ChatGPT中文网">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header"  style="margin-bottom: 0px">
+        <h1 class="post-title" itemprop="name headline">
+          OpenAI API账号又被封了？国内如何安全使用OpenAI API防止被封？
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-05-31 17:11:01 / 修改时间：18:22:01" itemprop="dateCreated datePublished" datetime="2024-05-31T17:11:01+08:00">2024-05-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/tutorial/" itemprop="url" rel="index"><span itemprop="name">tutorial</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+           
+		<a href="https://chatgptboke.com/account.html" target="_blank"> 
+			<img src="https://laowangblog.com/chatgpt-account-ad-large.png" style="margin-bottom: 2px" width="828" height="60" alt="ChatGPT 账号/ChatGPT 代注册"></a>
+<a href="https://chatgptboke.com/openai-api-dai.html" target="_blank">
+                        <img src="https://laowangblog.com/api-dai-ad.png" style="margin-bottom: 2px" width="828" height="60" alt="ChatGPT Plus代升级"></a>
+                <a href="https://chatgptboke.com/visa-mastercard-for-chatgpt-plus.html" target="_blank">
+                        <img src="https://laowangblog.com/chatgpt-plus-ad.png" style="margin-bottom: 2px" width="828" height="60" alt="ChatGPT Plus代升级"></a>
+	  
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>今年以来，OpenAI已经大规模封了好几波API账号，尤其是国内使用虚拟信用卡充值的用户，整个卡段的封号，并且号封了还不退钱。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下国内如何使用OpenAI API key而不被封号。</p>
+<h2 id="OpenAI-API账号被封"><a href="#OpenAI-API账号被封" class="headerlink" title="OpenAI API账号被封"></a>OpenAI API账号被封</h2><p>OpenAI今年以来已经大规模封号好几波了，尤其是API用户，国内很多API用户都遭到了封号，并且API账号被封后，<strong>预充值的钱是不会退给你的</strong>。</p>
+<p>为什么OpenAI API账号很容易被封呢？有两个原因：</p>
+<p><strong>原因1：在不允许的地方调用了API</strong></p>
+<p>调用API比使用ChatGPT对IP的要求要严格得多，如果在香港地区调用了API，很有可能就会以unsupported location的理由封号。</p>
+<p><strong>原因2：虚拟卡支付</strong></p>
+<p>因为OpenAI API只能用国外信用卡支付，国内用户很难申请到国外实体信用卡，所以都把目光转向了虚拟信用卡，例如Dupay、WildCard、NobePay、FormPay、OneKey Card等等，在网络上一搜”信用卡支付OpenAI API”全是这些信用卡的推荐，大部分是为了拿推荐佣金。<strong>国内的朋友都用这些信用卡，能不容易封吗</strong>？</p>
+<p>另外还有一个问题就是，因为这些虚拟信用卡的申请难度相对来说简单很多，所以很多人会用这些信用卡去做坏事，例如故意欠了OpenAI很大一笔账单但是不支付，直接销卡，这就很容易导致OpenAI直接拉黑整个卡段，<strong>所有使用过这个卡段信用卡充值的OpenAI账号全被封号</strong>。</p>
+<p><span style="color:red; font-weight:bold;">总的来说，使用门槛太低的虚拟信用卡支付OpenAI API，基本就是等着封号</span>。</p>
+<p>在网上随便搜一下”OpenAI封号”你就可以找到很多案例，甚至这种使用美国本地实体信用卡的国内用户都被封号了：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-3.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>2024年5月份，OpenAI就大规模封了2次账号，5月6日，无差别封号：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-2.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>5月30日（也就是昨天），又是大规模封号，这位用户已经很小心的使用了，还是遭到了封号：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-1.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>回复帖子里也有很多朋友有类似的封号情况，虚拟卡很容易被人牵连、当地实体卡也被封了：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-api-fenghao-1-1.jpg" alt="OpenAI API账号被封" title="OpenAI API账号被封"></p>
+<p>OpenAI ChatGPT API地址：<a target="_blank" rel="noopener" href="https://platform.openai.com/">https://platform.openai.com</a></p>
+<h2 id="国内如何安全使用OpenAI-API（防止被封）"><a href="#国内如何安全使用OpenAI-API（防止被封）" class="headerlink" title="国内如何安全使用OpenAI API（防止被封）"></a>国内如何安全使用OpenAI API（防止被封）</h2><p>那在国内使用OpenAI API key有没有安全的方法呢？怎样才能防止账号被封呢？</p>
+<p>首先，最好是找一个当地的实体信用卡，这种申请门槛高，不太会被牵连，实在不行也找一些小众的虚拟信用卡，不能是网上一搜成片教程的，或者是直接淘宝买的，那种太容易受牵连被封号了；其次，保证IP干净，最好是美国家宽的IP，不要频繁切换。</p>
+<p>相比于自行充值，其实有一个更好的解决方案，<span style="color:red; font-weight:bold;">100%不会封号</span>，那就是选择<span style="color:red; font-weight:bold;">中转API</span>。</p>
+<p>中转API相当于在<span
+style="color:red; font-weight:bold;">调用者和官方服务器之间搭建了一个中转服务器</span>，调用者实际用的还是<span
+style="color:red; font-weight:bold;">官方的API服务</span>，大家可以看下这个图关于中转API的解释：</p>
+<p><img src="https://chatgptzh.github.io/images/openai-proxy-api.png.jpg" alt="国内如何安全使用OpenAI API（防止被封）" title="国内如何安全使用OpenAI API（防止被封）"></p>
+<p>如果使用中转API，那么就<span
+style="color:red; font-weight:bold;">由中转平台考虑封号的问题，并且中转API是可以直接在国内连接的</span>，很多人为了使用OpenAI API还特地去买了一个代理，使用中转API还可以省下这笔钱，并且，这些中转平台因为大批量采购（有独特的渠道），还可以做到API的<span
+style="color:red; font-weight:bold;">价格比官网价格更低</span>！</p>
+<p><a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>给大家推荐一家靠谱稳定的中转API平台：</p>
+<ul>
+<li>便携AI聚合API地址：<a target="_blank" rel="noopener" href="https://api.bianxieai.com/">便携AI聚合API - 接入了超百种AI大语言模型 | 支持OpenAI全模型 | 国内直连 | 余额永久有效</a></li>
+</ul>
+<p>便携AI聚合API支持各种使用OpenAI接口的应用，只要你使用的平台有自定义链接地址的地方，都可以用，包括但不限于ChatGPT Next Web、GPT学术优化gpt_academic、OpenAI Translator、Bob翻译、Pot翻译、沉浸式翻译、代码调用（各种编程语言如Python&#x2F;PHP&#x2F;Java&#x2F;Go、POST&#x2F;GET请求等） 、LangChain、AutoGPT、Lobe-Chat、ChatX、ChallAll、ChatHub、LibreChat、Dify.AI、CodeGPT、OpenCat、Chatbox等。</p>
+<p>如果你想在国内使用OpenAI API，又苦于账号一致被封，那么确实可以考虑中转API，便宜好用，还不封号，合不合适看了再做决定：<a target="_blank" rel="noopener" href="https://api.bianxieai.com/">https://api.bianxieai.com</a>。</p>
+
+    </div>
+
+    
+    
+    
+    <footer class="post-footer">
+<p style="text-align: center;"><strong>「ChatGPT研修班」知识星球</strong>上线啦，早鸟价年付249元！</p>
+<p style="text-align: center;"><span style="color: #ff0000;">上百篇教程</span>，带你<strong>从0到1玩赚ChatGPT</strong>，<a target="_blank" rel="nofollow" href="https://chatgptzh.github.io/zsxq/"">点击了解详情</a></p>
+<p><img decoding="async" class="alignnone size-medium" src="https://laowangblog.com/zsxq.jpg" alt="ChatGPT知识星球" width="466" height="556"></p>
+          <div class="post-tags">
+              <a href="/tags/ChatGPT/" rel="tag"># ChatGPT</a>
+              <a href="/tags/OpenAI-ChatGPT-API/" rel="tag"># OpenAI ChatGPT API</a>
+              <a href="/tags/API-Key/" rel="tag"># API Key</a>
+              <a href="/tags/OpenAI-ChatGPT-API%E8%B4%AD%E4%B9%B0/" rel="tag"># OpenAI ChatGPT API购买</a>
+              <a href="/tags/OpenAI-ChatGPT-API%E5%85%85%E5%80%BC/" rel="tag"># OpenAI ChatGPT API充值</a>
+              <a href="/tags/ChatGPT%E5%B0%81%E5%8F%B7/" rel="tag"># ChatGPT封号</a>
+              <a href="/tags/OpenAI%E5%B0%81%E5%8F%B7/" rel="tag"># OpenAI封号</a>
+              <a href="/tags/OpenAI-API%E8%A2%AB%E5%B0%81%E4%BA%86/" rel="tag"># OpenAI API被封了</a>
+              <a href="/tags/ChatGPT%E8%A2%AB%E5%B0%81%E4%BA%86/" rel="tag"># ChatGPT被封了</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/how-to-register-a-chatgpt-account-in-china/" rel="prev" title="2024年5月最新ChatGPT注册教程（国内可用，含接码手机号推荐）">
+                  <i class="fa fa-chevron-left"></i> 2024年5月最新ChatGPT注册教程（国内可用，含接码手机号推荐）
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">ChatGPT</span>
+</div>
+  <div class="powered-by">由 <a href="https://chatgptzh.github.io/">ChatGPT中文网</a> & <a href="https://chatgptboke.com/" rel="noopener" target="_blank">ChatGPT博客</a> 强力驱动 | <a href="https://chatgptzh.github.io/sitemap.xml" rel="noopener nofollow" target="_blank">sitemap</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/comments.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/utils.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/motion.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/next-boot.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.1/dist/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.15.1/source/js/third-party/search/local-search.min.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
