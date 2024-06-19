@@ -39,7 +39,7 @@
 <h2 id="ChatGPT账号购买方法"><a href="#ChatGPT账号购买方法" class="headerlink" title="ChatGPT账号购买方法"></a>ChatGPT账号购买方法</h2><p>下单地址：<a href="https://gpt.ycestore.com/buy/1">ChatGPT 成品号｜美国本地手工注册的 ChatGPT 账号｜一人一号不共享｜永久免费使用</a></p>
 <p>所有ChatGPT账号都是自动发货的，只要有库存，<strong>下单购买后就会直接将ChatGPT账号密码信息发送到你的邮箱</strong>，注意点包括：</p>
 <ol>
-<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#x63;&#x68;&#x61;&#116;&#103;&#112;&#116;&#97;&#99;&#x63;&#x6f;&#x75;&#110;&#116;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;&#x2d;&#45;&#45;&#45;&#67;&#104;&#97;&#116;&#x47;&#x50;&#84;&#80;&#x61;&#115;&#115;&#119;&#111;&#x72;&#100;&#x2d;&#45;&#45;&#45;&#x47;&#109;&#x61;&#x69;&#x6c;&#80;&#x61;&#x73;&#115;&#119;&#111;&#x72;&#x64;&#x2d;&#x2d;&#45;&#45;&#x67;&#x6d;&#x61;&#105;&#108;&#114;&#x65;&#99;&#111;&#118;&#x65;&#114;&#121;">&#x63;&#x68;&#x61;&#116;&#103;&#112;&#116;&#97;&#99;&#x63;&#x6f;&#x75;&#110;&#116;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;&#x2d;&#45;&#45;&#45;&#67;&#104;&#97;&#116;&#x47;&#x50;&#84;&#80;&#x61;&#115;&#115;&#119;&#111;&#x72;&#100;&#x2d;&#45;&#45;&#45;&#x47;&#109;&#x61;&#x69;&#x6c;&#80;&#x61;&#x73;&#115;&#119;&#111;&#x72;&#x64;&#x2d;&#x2d;&#45;&#45;&#x67;&#x6d;&#x61;&#105;&#108;&#114;&#x65;&#99;&#111;&#118;&#x65;&#114;&#121;</a>@gmail.com）；</li>
+<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Gmail 邮箱密码—-Gmail 辅助验证邮箱（如：<a href="mailto:&#99;&#x68;&#x61;&#116;&#103;&#112;&#x74;&#x61;&#x63;&#x63;&#x6f;&#x75;&#110;&#x74;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;&#45;&#45;&#x2d;&#45;&#67;&#x68;&#x61;&#116;&#x47;&#80;&#84;&#80;&#97;&#115;&#115;&#119;&#111;&#x72;&#x64;&#x2d;&#x2d;&#x2d;&#45;&#71;&#109;&#97;&#x69;&#108;&#80;&#x61;&#115;&#115;&#119;&#111;&#114;&#x64;&#x2d;&#x2d;&#x2d;&#x2d;&#103;&#109;&#97;&#x69;&#x6c;&#114;&#101;&#99;&#111;&#x76;&#101;&#114;&#121;">&#99;&#x68;&#x61;&#116;&#103;&#112;&#x74;&#x61;&#x63;&#x63;&#x6f;&#x75;&#110;&#x74;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;&#45;&#45;&#x2d;&#45;&#67;&#x68;&#x61;&#116;&#x47;&#80;&#84;&#80;&#97;&#115;&#115;&#119;&#111;&#x72;&#x64;&#x2d;&#x2d;&#x2d;&#45;&#71;&#109;&#97;&#x69;&#108;&#80;&#x61;&#115;&#115;&#119;&#111;&#114;&#x64;&#x2d;&#x2d;&#x2d;&#x2d;&#103;&#109;&#97;&#x69;&#x6c;&#114;&#101;&#99;&#111;&#x76;&#101;&#114;&#121;</a>@gmail.com）；</li>
 <li><strong>登录方式</strong> ：<a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a>（直接输入 ChatGPT 账号和 ChatGPT 密码登录，不要选择 Continue with Google， <strong>两种登录方式不通用</strong> ）</li>
 <li>最好用美国 IP 登录，因为这个号也是用美国家宽&#x2F;学校网络手工注册的；</li>
 <li>不要使用同一个 IP 登录多个账号，也不要频繁更换 IP；</li>
@@ -296,6 +296,30 @@
       </tags>
   </entry>
   <entry>
+    <title>ChatGPT消息发不出去，发送按钮灰色的点不了/点了没反应怎么办？</title>
+    <url>/chatgpt-is-unable-to-send-messages/</url>
+    <content><![CDATA[<p>最近ChatGPT又对访问限制做了一些更新，不少国内的朋友开VPN使用ChatGPT时遇到了消息发不出去，发送按钮是灰色的点不了，点了也没反应的问题，不管是网页端还是客户端都用不了。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下遇到这个问题应该怎么办。</p>
+<h2 id="ChatGPT无法发送消息的原因"><a href="#ChatGPT无法发送消息的原因" class="headerlink" title="ChatGPT无法发送消息的原因"></a>ChatGPT无法发送消息的原因</h2><p>给ChatGPT发消息时，输入完内容，无法点击发送按钮（按钮是灰色的），或者点了发送按钮后消息发不出去，如下图：</p>
+<p><img src="https://chatgptzh.github.io/images/chatgpt-cannot-send-message.png" alt="ChatGPT无法发送消息"></p>
+<p>还有一些朋友在不登录账号的情况下可以正常使用ChatGPT（来回对话很流畅），但是只要登录了账号就发不了消息了，具体的情况跟上图一样，发送按钮点不了，或者点了没反应，并且<strong>尤其是GPT-4o模型（Plus用户）特别容易遇到这个情况</strong>。</p>
+<p>其实这个情况的原因还是<strong>网络问题</strong>，最近OpenAI又加强了ChatGPT的访问限制，很多机场的节点都被封了，尤其是登录用户以及GPT-4o模型，因此才会出登录了账号后消息才发不去，或者使用GPT-4o消息发不出去（但是使用GPT-3.5又正常的情况）。</p>
+<h2 id="ChatGPT无法发送消息的解决方法"><a href="#ChatGPT无法发送消息的解决方法" class="headerlink" title="ChatGPT无法发送消息的解决方法"></a>ChatGPT无法发送消息的解决方法</h2><p>如果你的ChatGPT在登录后也无法发送消息，后者升级Plus后无法使用GPT-4o模型，那么可以尝试更换节点后再试（更换节点后强制刷新一下，或者保险起见你可以在无痕模式下重新登录账号）。</p>
+<p>如果你经常出现这个问题，或者换所有节点都无法解决这个问题，那么可以尝试换个工具，根据网友反馈，搬瓦工的<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a>用ChatGPT还是非常稳定的，并且在6月19日第一时间修复了这个无法发送消息的问题，详见：<a href="https://justmysockschatgpt.com/" title="Just My Socks">Just My Socks</a></p>
+<p><img src="https://chatgptzh.github.io/images/justmysocks-update-for-chatgpt.png" alt="Just My Socks解决ChatGPT无法发送消息"></p>
+<p>最后，为了更清楚的让大家了解如何解决ChatGPT无法发送消息的问题，我们更新了一个手把手教程。由于OpenAI经常改变策略，为了方便管理，教程放在微信公众号后台了。可以关注<strong>AI研修班</strong>（或者扫描下面的二维码），发送关键字“<strong>无法发送消息</strong>”即可获取相关教程。</p>
+<p><img src="https://laowangblog.com/wx-qrcode.png" alt="AI研修班"></p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT用不了</tag>
+        <tag>ChatGPT消息发不出去</tag>
+        <tag>ChatGPT没反应</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024年6月最新ChatGPT Plus订阅开通教程（ChatGPT Plus代升级推荐）</title>
     <url>/chatgpt-plus/</url>
     <content><![CDATA[<p>ChatGPT Plus升级时需要国外信用卡支付，很多人通过国外虚拟信用卡完成ChatGPT Plus订阅，但是最后不仅Plus被取消，号都被封了。这篇文章<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下详细的2024年最新ChatGPTPlus订阅教程开通，并推荐一个靠谱的ChatGPT Plus代升级和ChatGPT4账号出售业务。</p>
@@ -413,10 +437,10 @@
       </categories>
       <tags>
         <tag>ChatGPT</tag>
+        <tag>ChatGPT用不了</tag>
         <tag>ChatGPT登不上</tag>
         <tag>ChatGPT连不上</tag>
         <tag>ChatGPT封号</tag>
-        <tag>ChatGPT用不了</tag>
       </tags>
   </entry>
   <entry>
@@ -437,9 +461,9 @@
         <category>tutorial</category>
       </categories>
       <tags>
+        <tag>ChatGPT没反应</tag>
         <tag>ChatGPT登不上</tag>
         <tag>ChatGPT连不上</tag>
-        <tag>ChatGPT没反应</tag>
       </tags>
   </entry>
   <entry>
@@ -901,11 +925,11 @@
         <tag>ChatGPT打不开访问不了</tag>
         <tag>ChatGPT Access denied</tag>
         <tag>ChatGPT访问被拒绝</tag>
+        <tag>ChatGPT用不了</tag>
+        <tag>ChatGPT没反应</tag>
         <tag>ChatGPT登不上</tag>
         <tag>ChatGPT连不上</tag>
         <tag>ChatGPT封号</tag>
-        <tag>ChatGPT用不了</tag>
-        <tag>ChatGPT没反应</tag>
         <tag>ChatGPT Sorry you have been blocked</tag>
         <tag>ChatGPT抱歉您已被屏蔽</tag>
         <tag>ChatGPT VPN</tag>
@@ -1162,9 +1186,9 @@ style="color:red; font-weight:bold;">价格比官网价格更低</span>！</p>
       <tags>
         <tag>ChatGPT</tag>
         <tag>ChatGPT客户端</tag>
+        <tag>ChatGPT用不了</tag>
         <tag>ChatGPT登不上</tag>
         <tag>ChatGPT连不上</tag>
-        <tag>ChatGPT用不了</tag>
         <tag>ChatGPT Sign in failed 403</tag>
       </tags>
   </entry>
