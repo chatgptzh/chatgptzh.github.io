@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chatgptzh.github.io/issues-when-using-chatpgt-in-china/</loc>
+    
+    <lastmod>2024-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgptzh.github.io/oops-an-error-occurred/</loc>
+    
+    <lastmod>2024-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgptzh.github.io/how-to-register-a-chatgpt-account-in-china/</loc>
     
     <lastmod>2024-08-08</lastmod>
@@ -59,15 +77,6 @@
     <loc>https://chatgptzh.github.io/openai-api-and-chatgpt-accounts-deleted-or-deactivated/</loc>
     
     <lastmod>2024-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chatgptzh.github.io/issues-when-using-chatpgt-in-china/</loc>
-    
-    <lastmod>2024-03-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
