@@ -39,7 +39,7 @@
 <h2 id="ChatGPT账号购买方法"><a href="#ChatGPT账号购买方法" class="headerlink" title="ChatGPT账号购买方法"></a>ChatGPT账号购买方法</h2><p>下单地址：<a href="https://gpt.ycestore.com/buy/1">ChatGPT 成品号｜美国本地手工注册的 ChatGPT 账号｜一人一号不共享｜永久免费使用</a></p>
 <p>所有ChatGPT账号都是自动发货的，只要有库存，<strong>下单购买后就会直接将ChatGPT账号密码信息发送到你的邮箱</strong>，注意点包括：</p>
 <ol>
-<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Outlook 邮箱密码（如：<a href="mailto:&#x63;&#104;&#x61;&#x74;&#103;&#112;&#116;&#97;&#x63;&#x63;&#111;&#x75;&#x6e;&#x74;&#64;&#111;&#x75;&#116;&#x6c;&#x6f;&#x6f;&#x6b;&#x2e;&#x63;&#x6f;&#109;&#x2d;&#45;&#45;&#x2d;&#67;&#x68;&#x61;&#x74;&#71;&#80;&#84;&#80;&#97;&#115;&#x73;&#x77;&#x6f;&#114;&#100;&#x2d;&#45;&#x2d;&#x2d;&#79;&#x75;&#116;&#x6c;&#x6f;&#x6f;&#107;&#x50;&#97;&#115;&#115;&#119;&#x6f;&#114;&#100;">&#x63;&#104;&#x61;&#x74;&#103;&#112;&#116;&#97;&#x63;&#x63;&#111;&#x75;&#x6e;&#x74;&#64;&#111;&#x75;&#116;&#x6c;&#x6f;&#x6f;&#x6b;&#x2e;&#x63;&#x6f;&#109;&#x2d;&#45;&#45;&#x2d;&#67;&#x68;&#x61;&#x74;&#71;&#80;&#84;&#80;&#97;&#115;&#x73;&#x77;&#x6f;&#114;&#100;&#x2d;&#45;&#x2d;&#x2d;&#79;&#x75;&#116;&#x6c;&#x6f;&#x6f;&#107;&#x50;&#97;&#115;&#115;&#119;&#x6f;&#114;&#100;</a>）；</li>
+<li><strong>卡密格式</strong> ：邮箱（即 ChatGPT 账号）—-ChatGPT 密码—-Outlook 邮箱密码（如：<a href="mailto:&#99;&#x68;&#97;&#116;&#103;&#112;&#116;&#97;&#x63;&#x63;&#x6f;&#117;&#x6e;&#116;&#x40;&#x6f;&#x75;&#x74;&#108;&#111;&#111;&#107;&#x2e;&#99;&#111;&#109;&#x2d;&#x2d;&#x2d;&#x2d;&#x43;&#x68;&#x61;&#x74;&#71;&#x50;&#84;&#x50;&#97;&#115;&#x73;&#x77;&#111;&#x72;&#x64;&#x2d;&#45;&#45;&#x2d;&#x4f;&#x75;&#116;&#108;&#x6f;&#111;&#107;&#80;&#97;&#x73;&#x73;&#119;&#x6f;&#x72;&#100;">&#99;&#x68;&#97;&#116;&#103;&#112;&#116;&#97;&#x63;&#x63;&#x6f;&#117;&#x6e;&#116;&#x40;&#x6f;&#x75;&#x74;&#108;&#111;&#111;&#107;&#x2e;&#99;&#111;&#109;&#x2d;&#x2d;&#x2d;&#x2d;&#x43;&#x68;&#x61;&#x74;&#71;&#x50;&#84;&#x50;&#97;&#115;&#x73;&#x77;&#111;&#x72;&#x64;&#x2d;&#45;&#45;&#x2d;&#x4f;&#x75;&#116;&#108;&#x6f;&#111;&#107;&#80;&#97;&#x73;&#x73;&#119;&#x6f;&#x72;&#100;</a>）；</li>
 <li><strong>登录方式</strong> ：<a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a>（直接输入 ChatGPT 账号和 ChatGPT 密码登录，不要选择 Continue with Google， <strong>两种登录方式不通用</strong> ）</li>
 <li>最好用美国 IP 登录，因为这个号也是用美国家宽&#x2F;学校网络手工注册的；</li>
 <li>不要使用同一个 IP 登录多个账号，也不要频繁更换 IP；</li>
@@ -988,6 +988,42 @@
         <tag>ChatGPT网络错误</tag>
         <tag>ChatGPT Verifying you are human</tag>
         <tag>ChatGPT验证你是人类</tag>
+        <tag>ChatGPT an error occurred</tag>
+        <tag>ChatGPT出现错误</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ChatGPT降智怎么办？ChatGPT Plus GPT-4o无法联网，无法上传/分析图片和文件</title>
+    <url>/jiangzhi/</url>
+    <content><![CDATA[<p>最近很多人在使用ChatGPT时遇到了降智的问题，包括ChatGPT Plus用户，具体表现就是GPT-4o无法联网，无法上传图片和文件，或者无法读取图片和文件。今天<a href="https://chatgptzh.github.io/" title="ChatGPT中文网">ChatGPT中文网</a>就分享下遇到这个问题应该怎么办。</p>
+<h2 id="ChatGPT降智的原因"><a href="#ChatGPT降智的原因" class="headerlink" title="ChatGPT降智的原因"></a>ChatGPT降智的原因</h2><p>首先分享下<strong>判断ChatGPT是否降智</strong>的方法，直接问ChatGPT：summarize your tool in a markdown table with availability。如果是正常功能的ChatGPT 4o（可以联网、分析图片和文件），会有bio、dalle、browser、python等多个功能：</p>
+<p><img src="https://chatgptzh.github.io/images/tell-chatgpt-simplified-1.jpg" alt="判断ChatGPT是否降智"></p>
+<p>而降智了的ChatGPT则只有一个bio功能，也就是只能文本交流，无法联网，也无法分析图片和文件：</p>
+<p><img src="https://chatgptzh.github.io/images/tell-chatgpt-simplified-2.jpg" alt="判断ChatGPT是否降智"></p>
+<p>这次ChatGPT降智的原因还是<strong>IP质量不行</strong>，IP质量不仅仅是通过纯净度判断，还跟这个IP的使用量有关，这就是为什么有些人用住宅IP还是会出现降智问题的原因，再干净的IP用的人多了还是不行。</p>
+<p>网上有人做了3个对比实验来分析这次降智的原因：</p>
+<ol>
+<li>实验1：本地的Chrome浏览器，普通的美国IP</li>
+<li>实验2：指纹浏览器，普通的美国IP</li>
+<li>实验3：指纹浏览器，美国住宅IP</li>
+</ol>
+<p>大家可以看下这篇文章：《<a href="https://chatgptboke.com/the-reason-for-chatgpt-simplified.html">为什么GPT-4o会降智？ChatGPT降智的原因是什么？</a>》</p>
+<h2 id="ChatGPT降智的解决方法"><a href="#ChatGPT降智的解决方法" class="headerlink" title="ChatGPT降智的解决方法"></a>ChatGPT降智的解决方法</h2><p>根据<a href="https://chatgptzh.github.io/groups/">ChatGPT交流群</a>中用户这几天的交流，目前ChatGPT降智并没有很好的解决方法，网上有一个检测IP是否能正常使用ChatGPT的浏览器插件，但根据实际测试结果来看，就算检测结果是正常，也可能无法解决ChatGPT降智问题。</p>
+<p>总结来看，可能ChatGPT降智的解决方法只有以下3个：</p>
+<ol>
+<li><strong>等</strong>：有的人过几天就突然能用了，期间什么都没做</li>
+<li><strong>使用客户端</strong>：目前ChatGPT手机客户端（包括安卓和iOS客户端）和Mac客户端是可以正常用的</li>
+<li><strong>使用API</strong>：一些API平台可以使用官网Plus的4o模型，这些平台一般都是用很干净的住宅IP来反代的，也是正常使用联网、图片&#x2F;文件分析功能的，例如之前介绍的<a href="https://api.bianxie.ai/">便携AI聚合API</a>，它提供的聊天平台可以直接在线对话，联网，上传文件，分析文件等，可以参考教程：<a href="https://bianxieai.com/bianxieai-chat-tutorial.html">便携AI聚合API聊天模块使用教程</a></li>
+</ol>
+<p><img src="https://chatgptzh.github.io/images/chatgpt-bianxieai-chat.jpg" alt="ChatGPT降智的解决方法"></p>
+]]></content>
+      <categories>
+        <category>tutorial</category>
+      </categories>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT用不了</tag>
+        <tag>ChatGPT消息发不出去</tag>
         <tag>ChatGPT an error occurred</tag>
         <tag>ChatGPT出现错误</tag>
       </tags>
